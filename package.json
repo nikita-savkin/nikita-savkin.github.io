@@ -13,7 +13,9 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.3.3",
     "sass": "^1.55.0",
+    "tsparticles": "^2.3.4",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
@@ -40,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss-normalize": "^10.0.1"
   }
 }

@@ -1,0 +1,36 @@
+.info-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 750px;
+  height: 100vh;
+  background-color: #1b203f;
+  padding: 30px;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .title {
+      position: relative;
+      font-size: 30px;
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 1px;
+        top: 40%;
+        right: -230px;
+        background-color: rgba(#fff, 0.5);
+      }
+    }
+
+    .close {
+      width: 23px;
+      height: 23px;
+      cursor: pointer;
+    }
+  }
+}

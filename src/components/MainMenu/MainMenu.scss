@@ -1,0 +1,19 @@
+.main-menu {
+  display: flex;
+  transform: rotate(-30deg) translateY(-150px) translateX(130px);
+
+  &_left,
+  &_center,
+  &_right {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &_left {
+    align-items: end;
+  }
+
+  &_right {
+    justify-content: end;
+  }
+}

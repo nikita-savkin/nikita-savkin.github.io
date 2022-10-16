@@ -1,0 +1,12 @@
+.wrapper {
+  position: relative;
+
+  .body-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(34, 40, 77, 0.2), #131625);
+  }
+}
