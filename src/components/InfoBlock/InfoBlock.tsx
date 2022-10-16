@@ -7,11 +7,6 @@ const InfoBlock = () => {
     profession: "Front-End Developer",
     links: [
       {
-        id: "VK",
-        url: "https://vk.com/no_colour_you_like",
-        icon: "./img/icons/vk.svg",
-      },
-      {
         id: "email",
         url: "mailto:no.colour.you.like@gmail.com",
         icon: "./img/icons/email.svg",
