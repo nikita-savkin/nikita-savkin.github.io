@@ -75,3 +75,37 @@ export const ProjectExampleInfo: ProjectExample[] = [
     mainUrl: "url",
   },
 ];
+
+export const resume = {
+  hardSkills: [
+    {
+      title: "Languages",
+      info: "JavaScript (ES6), TypeScript, HTML5, CSS (SASS, SCSS)",
+    },
+    {
+      title: "Libraries & Frameworks",
+      info: "React, Redux",
+    },
+    {
+      title: "Additional",
+      info: "Git, GitHub, Gulp, NPM, BEM, Responsive design",
+    },
+  ],
+  softSkills: ["Critical thinking", "Adaptability and Flexibility", "Teamwork"],
+  experience: [
+    {
+      title: "Front-end Developer",
+      gap: "March 2020 - Present",
+      duties: [
+        "Developed and maintained code for client websites primarily using HTML, CSS(SASS) and JavaScript;",
+        "Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness;",
+        "Wrote modern, performant, maintainable code for websites and web applications.",
+      ],
+      achievements: [
+        "engineered and implemented five adaptive websites",
+        "five JavaScript applications",
+        "e-commerce project using React.",
+      ],
+    },
+  ],
+};

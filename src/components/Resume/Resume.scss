@@ -1,0 +1,71 @@
+.resume {
+  display: flex;
+
+  &__subtitle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 3px 10px;
+    font-size: 23px;
+    background-color: #5360a8;
+    margin-bottom: 20px;
+  }
+
+  &__skills {
+    min-width: 230px;
+    border-right: 1px solid rgba(#fff, 0.2);
+    padding-right: 12px;
+  }
+
+  &__exp {
+    padding-left: 24px;
+  }
+
+  .skills {
+    margin-bottom: 40px;
+
+    h4 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    span {
+      font-size: 18px;
+    }
+
+    .mini-block {
+      margin-bottom: 18px;
+    }
+
+    .soft {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        margin-bottom: 7px;
+      }
+    }
+  }
+
+  .exp-single {
+    h4 {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    .gap {
+      font-size: 18px;
+      color: #a3b7ee;
+      margin-bottom: 15px;
+    }
+
+    .duties {
+      padding-left: 20px;
+      font-size: 19px;
+
+      .duty {
+        margin-bottom: 13px;
+      }
+    }
+  }
+}
