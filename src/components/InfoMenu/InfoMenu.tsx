@@ -1,58 +1,29 @@
+import { ProjectExampleInfo } from "../../data/data";
 import ProjectExample from "../ProjectExample/ProjectExample";
 import "./InfoMenu.scss";
 
-const InfoMenu = () => {
-  const ProjectExampleData = [
-    {
-      title: "Launcher Inc",
-      imageUrl: "./img/portfolio/launcher-inc.jpg",
-      description:
-        "Project for Launcher Inc. , a rocket engine testing company. This multi-page site contains information about the company, its product and personnel.",
-      tools: "HTML CSS",
-      githubUrl: "someurl",
-      mainUrl: "url",
-    },
-    {
-      title: "GYM Sports",
-      imageUrl: "./img/portfolio/gymsports.jpg",
-      description:
-        "In this project, I created a convenient website for a fitness club, where you can find out all the information about training, schedule and payment terms.",
-      tools: "HTML CSS",
-      githubUrl: "someurl",
-      mainUrl: "url",
-    },
-    {
-      title: "Launcher Inc",
-      imageUrl: "./img/portfolio/launcher-inc.jpg",
-      description:
-        "Project for Launcher Inc. , a rocket engine testing company. This multi-page site contains information about the company, its product and personnel.",
-      tools: "HTML CSS",
-      githubUrl: "someurl",
-      mainUrl: "url",
-    },
-    // {
-    //   title: "Launcher Inc",
-    //   imageUrl: "./img/portfolio/launcher-inc.jpg",
-    //   description:
-    //     "Project for Launcher Inc. , a rocket engine testing company. This multi-page site contains information about the company, its product and personnel.",
-    //   tools: "HTML CSS",
-    //   githubUrl: "someurl",
-    //   mainUrl: "url",
-    // },
-  ];
+interface InfoMenuType {
+  showedInfoMenu: string | null;
+  toggleInfoMenu: CallableFunction;
+}
+
+const InfoMenu = ({ showedInfoMenu, toggleInfoMenu }: InfoMenuType) => {
+  const hideInfoMenu = () => {
+    toggleInfoMenu(null);
+  };
 
   return (
-    <div className="info-menu">
+    <div className={`info-menu ${!showedInfoMenu ? "info-menu--hidden" : "info-menu--showed"}`}>
       <div className="info-menu__header">
         <div className="title">My Works</div>
-        <div className="close">
+        <div onClick={hideInfoMenu} className="close">
           <img src="./img/icons/close.svg" alt="close-icon" />
         </div>
       </div>
       <div className="info-menu__content">
-        {ProjectExampleData.map((example, idx) => {
-          return <ProjectExample projectExample={example} index={idx} key={idx} />;
-        })}
+        {ProjectExampleInfo.map((example, idx) => (
+          <ProjectExample projectExample={example} index={idx} key={idx} />
+        ))}
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import "./ProjectExample.scss";
 
 const ProjectExample = ({ projectExample, index }: any) => {
   return (
-    <div className={`project-example ${index % 2 === 0 ? "project-example--reversed" : ""}`}>
+    <div className={`project-example ${index % 2 !== 0 ? "project-example--reversed" : ""}`}>
       <div className="project-example__image">
         <img src={projectExample.imageUrl} alt="project-example-img" />
       </div>

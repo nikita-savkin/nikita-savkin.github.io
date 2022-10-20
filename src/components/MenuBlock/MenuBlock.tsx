@@ -8,9 +8,10 @@ interface MenuBlockType {
   className?: string;
   title?: Title;
   children?: any;
+  showInfoMenu?: CallableFunction;
 }
 
-const MenuBlock = ({ dynamic = true, className, title, children }: MenuBlockType) => {
+const MenuBlock = ({ dynamic = true, className, title, children, showInfoMenu }: MenuBlockType) => {
   const [height, setHeight] = useState(0);
   const [width, setWidth] = useState(0);
 
@@ -52,7 +53,7 @@ const MenuBlock = ({ dynamic = true, className, title, children }: MenuBlockType
     }
   };
 
-  const onMenuBlockHover = () => {
+  const onMenuBlockEnter = () => {
     if (dynamic) {
       blinkLine();
       blinkLineInterval = setInterval(blinkLine, 1000);
@@ -65,7 +66,7 @@ const MenuBlock = ({ dynamic = true, className, title, children }: MenuBlockType
     }
   };
 
-  const onMenuBlockOut = () => {
+  const onMenuBlockLeave = () => {
     if (menuBlockLineRef.current && menuBlockRef.current && dynamic) {
       menuBlockLineRef.current.style.opacity = "0";
       menuBlockRef.current.style.transform = "";
@@ -86,19 +87,24 @@ const MenuBlock = ({ dynamic = true, className, title, children }: MenuBlockType
     }
   };
 
+  const onClick = () => {
+    if (showInfoMenu && dynamic) showInfoMenu(title?.id);
+  };
+
   return (
     <div
       ref={menuBlockRef}
-      onMouseOver={onMenuBlockHover}
-      onMouseOut={onMenuBlockOut}
+      onMouseEnter={onMenuBlockEnter}
+      onMouseLeave={onMenuBlockLeave}
       onMouseMove={onMouseMove}
       onMouseDown={onMenuBlockDown}
       onMouseUp={onMenuBlockUp}
+      onClick={onClick}
       className={`menu-block ${className ?? "menu-block_medium"}`}
     >
       {!!Object.keys(title ?? {}).length && (
         <div className="menu-block__title">
-          <span>{title?.number}</span>
+          <span>{title?.id}</span>
           <span className="menu-block__title-dot">.</span>
           <span>{title?.title}</span>
           <span ref={menuBlockBracketsRef} className="menu-block__title-brackets">

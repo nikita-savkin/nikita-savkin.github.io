@@ -6,6 +6,15 @@
   height: 100vh;
   background-color: #1b203f;
   padding: 30px 15px 30px 30px;
+  transition: 0.3s;
+
+  &--hidden {
+    transform: translateX(110%);
+  }
+
+  &--showed {
+    transform: translateX(0);
+  }
 
   &__header {
     display: flex;
