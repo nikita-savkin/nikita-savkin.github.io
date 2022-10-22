@@ -1,4 +1,4 @@
-import { ProjectExampleInfo } from "../../data/data";
+import { ProjectExampleInfo } from "../../data";
 import ProjectExample from "../ProjectExample/ProjectExample";
 
 const Portfolio = () => {

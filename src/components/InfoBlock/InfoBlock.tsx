@@ -1,4 +1,4 @@
-import { personalInfo } from "../../data/data";
+import { personalInfo } from "../../data";
 
 import "./InfoBlock.scss";
 

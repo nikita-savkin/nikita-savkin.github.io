@@ -1,7 +1,7 @@
 import MenuBlock from "../MenuBlock/MenuBlock";
 import InfoBlock from "../InfoBlock/InfoBlock";
 import "./MainMenu.scss";
-import { middleBlocksTitles } from "../../data/data";
+import { middleBlocksTitles } from "../../data";
 
 interface MainMenuType {
   showInfoMenu: CallableFunction;

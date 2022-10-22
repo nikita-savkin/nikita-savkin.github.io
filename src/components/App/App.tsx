@@ -6,12 +6,13 @@ import InfoMenu from "../InfoMenu/InfoMenu";
 import AboutMe from "../AboutMe/AboutMe";
 import Portfolio from "../Portfolio/Portfolio";
 import Resume from "../Resume/Resume";
+import Contacts from "../Contacts/Contacts";
 
-import { middleBlocksTitles } from "../../data/data";
+import { middleBlocksTitles } from "../../data";
 import "./App.scss";
 
 const App = () => {
-  const [showedInfoMenu, setShowedInfoMenu] = useState<string | null>(null);
+  const [showedInfoMenu, setShowedInfoMenu] = useState<string | null>("01");
   const [infoMenuTitle, setInfoMenuTitle] = useState("");
 
   const toggleInfoMenu = (id: string | null) => {
@@ -24,6 +25,19 @@ const App = () => {
     });
   };
 
+  const renderInfoMenuContent = () => {
+    switch (showedInfoMenu) {
+      case "01":
+        return <AboutMe />;
+      case "02":
+        return <Portfolio />;
+      case "03":
+        return <Resume />;
+      case "04":
+        return <Contacts />;
+    }
+  };
+
   return (
     <div className="wrapper">
       <div className="body-bg"></div>
@@ -34,9 +48,7 @@ const App = () => {
           toggleInfoMenu={toggleInfoMenu}
           title={infoMenuTitle}
         >
-          {showedInfoMenu === "01" && <AboutMe />}
-          {showedInfoMenu === "02" && <Portfolio />}
-          {showedInfoMenu === "03" && <Resume />}
+          {renderInfoMenuContent()}
         </InfoMenu>
         <ParticlesComp />
       </div>

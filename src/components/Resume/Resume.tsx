@@ -1,4 +1,4 @@
-import { resume } from "../../data/data";
+import { resume } from "../../data";
 import "./Resume.scss";
 
 const Resume = () => {
@@ -20,15 +20,16 @@ const Resume = () => {
       <div className="exp-single">
         <h4>{experienceSingle.title}</h4>
         <div className="gap">{experienceSingle.gap}</div>
+        <h5>Duties:</h5>
         <div className="duties">
           {experienceSingle.duties.map((duty: string) => (
             <div className="duty">- {duty}</div>
           ))}
         </div>
         <div className="achievements">
-          <h4>Achievements</h4>
+          <h5>Achievements:</h5>
           {experienceSingle.achievements.map((achievement: string) => (
-            <div className="duty">- {achievement}</div>
+            <div className="achievement">- {achievement}</div>
           ))}
         </div>
       </div>
