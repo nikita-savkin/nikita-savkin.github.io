@@ -21,7 +21,7 @@ export interface ProjectExample {
   title: string;
   imageUrl: string;
   description: string;
-  tools: string;
+  techs: string[];
   githubUrl: string;
   mainUrl: string;
 }

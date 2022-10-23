@@ -21,7 +21,7 @@
       font-size: 20px;
       font-weight: 300;
       top: -30px;
-      left: -50px;
+      left: -40px;
       color: #abb0b3;
     }
 
@@ -54,15 +54,16 @@
       font-family: inherit;
       font-size: 20px;
       font-weight: 300;
-      top: 15px;
-      left: -50px;
+      top: 10px;
+      left: -40px;
       color: #abb0b3;
     }
 
     &::after {
       content: "</p>";
       left: auto;
-      right: -50px;
+      top: 10px;
+      right: -40px;
     }
   }
 

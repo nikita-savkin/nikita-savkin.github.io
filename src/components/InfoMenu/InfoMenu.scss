@@ -5,7 +5,7 @@
   width: 750px;
   height: 100vh;
   background-color: #1b203f;
-  padding: 40px 15px 40px 40px;
+  padding: 40px 15px 40px 30px;
   transition: 0.3s;
 
   &--hidden {
@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
+    margin-left: 10px;
 
     .title {
       position: relative;
@@ -49,6 +50,7 @@
     overflow-y: scroll;
     height: calc(100vh - 120px);
     padding-right: 15px;
+    padding-left: 10px;
 
     &::-webkit-scrollbar {
       width: 4px;
