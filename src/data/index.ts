@@ -34,14 +34,14 @@ export const personalInfo: PersonalInfo = {
       icon: "./img/icons/email.svg",
     },
     {
-      id: "github",
-      url: "https://github.com/No-colour-you-like",
-      icon: "./img/icons/github.svg",
-    },
-    {
       id: "linkedin",
       url: "https://www.linkedin.com/in/nikitasavkin",
       icon: "./img/icons/linkedin.svg",
+    },
+    {
+      id: "github",
+      url: "https://github.com/No-colour-you-like",
+      icon: "./img/icons/github.svg",
     },
   ],
 };
@@ -50,8 +50,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
   {
     title: "Happy Inc",
     imageUrl: "./img/portfolio/hj.jpeg",
-    description:
-      "Project for Launcher Inc. , a rocket engine testing company. This multi-page site contains information about the company, its product and personnel.",
+    description: "Hello",
     techs: ["TypeScript", "Vue"],
     githubUrl: "someurl",
     mainUrl: "url",
@@ -59,8 +58,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
   {
     title: "Keyauto",
     imageUrl: "./img/portfolio/keyauto.jpeg",
-    description:
-      "Project for Launcher Inc. , a rocket engine testing company. This multi-page site contains information about the company, its product and personnel.",
+    description: "Hello",
     techs: ["TypeScript", "Vue"],
     githubUrl: "someurl",
     mainUrl: "url",
@@ -68,20 +66,91 @@ export const ProjectExampleInfo: ProjectExample[] = [
   {
     title: "Luidor",
     imageUrl: "./img/portfolio/luidor.png",
-    description:
-      "Project for Launcher Inc. , a rocket engine testing company. This multi-page site contains information about the company, its product and personnel.",
+    description: "Hello",
     techs: ["TypeScript", "Vue"],
     githubUrl: "someurl",
     mainUrl: "url",
   },
   {
-    title: "Launcher Inc",
+    title: "Plants E-commerce",
+    imageUrl: "./img/portfolio/plants.jpg",
+    description:
+      "This SPA represents the plant store. Here you can find out the assortment of the store, information about products, register an account and add products to the basket.",
+    techs: ["React", "JavaScript"],
+    githubUrl: "https://github.com/No-colour-you-like/plants-e-commerce",
+    mainUrl: "https://no-colour-you-like.github.io/plants-e-commerce/",
+  },
+  {
+    title: "GYM Sports",
+    imageUrl: "./img/portfolio/gymsports.jpg",
+    description:
+      "In this project, I created a convenient website for a fitness club, where you can find out all the information about training, schedule and payment terms.",
+    techs: ["JavaScript", "Sass"],
+    githubUrl: "https://github.com/No-colour-you-like/Gymsports",
+    mainUrl: "https://no-colour-you-like.github.io/Gymsports/",
+  },
+  {
+    title: "Launcher Inc.",
     imageUrl: "./img/portfolio/launcher-inc.jpg",
     description:
       "Project for Launcher Inc. , a rocket engine testing company. This multi-page site contains information about the company, its product and personnel.",
-    techs: ["TypeScript", "Vue"],
-    githubUrl: "someurl",
-    mainUrl: "url",
+    techs: ["JavaScript", "Sass"],
+    githubUrl: "https://github.com/No-colour-you-like/Launcher",
+    mainUrl: "https://no-colour-you-like.github.io/Launcher",
+  },
+  {
+    title: "Photographer Portfolio",
+    imageUrl: "./img/portfolio/photographer.jpg",
+    description:
+      "An animated portfolio showcasing the different aspects of a professional photographer.",
+    techs: ["JavaScript", "Sass"],
+    githubUrl: "https://github.com/No-colour-you-like/Photographer",
+    mainUrl: "https://no-colour-you-like.github.io/Photographer/",
+  },
+  {
+    title: "Perfect Home",
+    imageUrl: "./img/portfolio/perfect-home.jpg",
+    description:
+      "Single-page animated website providing information about the services of a rental company.",
+    techs: ["JavaScript", "Sass"],
+    githubUrl: "https://github.com/No-colour-you-like/Perfect-home",
+    mainUrl: "https://no-colour-you-like.github.io/Perfect-home/",
+  },
+  {
+    title: "Crypto Dashboard",
+    imageUrl: "./img/portfolio/crypto.jpg",
+    description:
+      "This application allows to track three types of cryptocurrencies in real time. It is also possible to use a currency converter and track the dynamics of the cryptocurrency.",
+    techs: ["JavaScript", "Sass"],
+    githubUrl: "https://github.com/No-colour-you-like/Crypto",
+    mainUrl: "https://no-colour-you-like.github.io/Crypto/",
+  },
+  {
+    title: "Wallet Dashboard",
+    imageUrl: "./img/portfolio/wallet.jpg",
+    description:
+      "This project helps to record expenses and income. Allows to add and remove transactions, track the type and date of expenses.",
+    techs: ["JavaScript", "Sass"],
+    githubUrl: "https://github.com/No-colour-you-like/Wallet",
+    mainUrl: "https://no-colour-you-like.github.io/Wallet/",
+  },
+  {
+    title: "Movies Dashboard",
+    imageUrl: "./img/portfolio/movies.jpg",
+    description:
+      "In this application, I created a user-friendly navigation with popular movie lists. This app allows to filter films by genre and year, as well as sort them by main parameters.",
+    techs: ["JavaScript", "Sass"],
+    githubUrl: "https://github.com/No-colour-you-like/Movies",
+    mainUrl: "https://no-colour-you-like.github.io/Movies/",
+  },
+  {
+    title: "Cinema Dashboard",
+    imageUrl: "./img/portfolio/cinema.jpg",
+    description:
+      "This project is part of the purchase of cinema tickets. This part includes the choice of movie, cinema, time and seat.",
+    techs: ["JavaScript", "Sass"],
+    githubUrl: "https://github.com/No-colour-you-like/Cinema",
+    mainUrl: "https://no-colour-you-like.github.io/Cinema/",
   },
 ];
 
