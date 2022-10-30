@@ -17,3 +17,21 @@
     justify-content: end;
   }
 }
+
+.showed-main-menu-block {
+  animation: showMainMenuBlock 1s forwards;
+}
+
+.hidden-main-manu-block {
+  opacity: 0;
+}
+
+@keyframes showMainMenuBlock {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

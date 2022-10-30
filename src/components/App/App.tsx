@@ -1,4 +1,7 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import Typewriter from "typewriter-effect";
+// @ts-ignore
+import AnimatedCursor from "react-animated-cursor";
 
 import ParticlesComp from "../Particles";
 import MainMenu from "../MainMenu/MainMenu";
@@ -12,8 +15,21 @@ import { middleBlocksTitles } from "../../data";
 import "./App.scss";
 
 const App = () => {
-  const [showedInfoMenu, setShowedInfoMenu] = useState<string | null>("01");
+  const [showedInfoMenu, setShowedInfoMenu] = useState<string | null>(null);
   const [infoMenuTitle, setInfoMenuTitle] = useState("");
+  const [isShowedPageLoader, setIsShowedPageLoader] = useState(true);
+  const [hideTypewriper, setHideTypewriper] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setHideTypewriper(true);
+    }, 5000);
+
+    setTimeout(() => {
+      setHideTypewriper(true);
+      setIsShowedPageLoader(false);
+    }, 5600);
+  }, []);
 
   const toggleInfoMenu = (id: string | null) => {
     setShowedInfoMenu(id);
@@ -23,6 +39,10 @@ const App = () => {
         setInfoMenuTitle(titleInfo.infoMenuTitle);
       }
     });
+  };
+
+  const hideInfoMenu = () => {
+    toggleInfoMenu(null);
   };
 
   const renderInfoMenuContent = () => {
@@ -40,9 +60,50 @@ const App = () => {
 
   return (
     <div className="wrapper">
+      <AnimatedCursor
+        innerSize={20}
+        outerSize={10}
+        color="255, 255 ,255"
+        outerAlpha={1}
+        innerScale={0.7}
+        outerScale={5}
+        hasOuterBlendMode={true}
+        outerStyle={{
+          mixBlendMode: "exclusion",
+        }}
+        clickables={[
+          "a",
+          'input[type="text"]',
+          'input[type="email"]',
+          'input[type="number"]',
+          'input[type="submit"]',
+          'input[type="image"]',
+          "label[for]",
+          "select",
+          "textarea",
+          "button",
+          ".clickable",
+        ]}
+      />
       <div className="body-bg"></div>
+      {isShowedPageLoader && (
+        <div className={`page-load ${hideTypewriper ? "hidden-typewriter" : ""}`}>
+          <div className="blured-bg"></div>
+          <Typewriter
+            options={{
+              wrapperClassName: "typewriter-wrapper",
+              strings: ["Welcome to Nikita's portfolio."],
+              autoStart: true,
+              loop: false,
+              deleteSpeed: 1,
+              delay: 70,
+            }}
+          />
+        </div>
+      )}
+      {showedInfoMenu && <div onClick={hideInfoMenu} className="bg-info-menu"></div>}
       <div className="container">
-        <MainMenu showInfoMenu={toggleInfoMenu} />
+        {!isShowedPageLoader && <MainMenu showInfoMenu={toggleInfoMenu} />}
         <InfoMenu
           showedInfoMenu={showedInfoMenu}
           toggleInfoMenu={toggleInfoMenu}

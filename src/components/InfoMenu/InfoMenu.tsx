@@ -16,7 +16,7 @@ const InfoMenu = ({ title, showedInfoMenu, toggleInfoMenu, children }: InfoMenuT
     <div className={`info-menu ${!showedInfoMenu ? "info-menu--hidden" : "info-menu--showed"}`}>
       <div className="info-menu__header">
         <div className="title">{title}</div>
-        <div onClick={hideInfoMenu} className="close">
+        <div onClick={hideInfoMenu} className="close clickable">
           <img src="./img/icons/close.svg" alt="close-icon" />
         </div>
       </div>

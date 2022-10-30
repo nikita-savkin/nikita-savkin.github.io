@@ -100,3 +100,10 @@ img {
   font-weight: 600;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Helvetica Outline";
+  src: local("Helvetica-outline"), url("./assets/fonts/Helvetica-Outline.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}

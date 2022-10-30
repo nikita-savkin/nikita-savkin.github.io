@@ -4,9 +4,10 @@
   top: 0;
   width: 750px;
   height: 100vh;
-  background-color: #1b203f;
-  padding: 40px 15px 40px 30px;
+  background-color: #13172e;
+  padding: 40px 15px 40px 20px;
   transition: 0.3s;
+  z-index: 3;
 
   &--hidden {
     transform: translateX(110%);

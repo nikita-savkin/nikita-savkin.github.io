@@ -5,6 +5,7 @@
   justify-content: center;
   position: relative;
   transition: 0.2s;
+  backdrop-filter: blur(3px);
   cursor: pointer;
 
   &:hover {

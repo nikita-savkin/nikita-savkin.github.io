@@ -100,7 +100,7 @@ const MenuBlock = ({ dynamic = true, className, title, children, showInfoMenu }:
       onMouseDown={onMenuBlockDown}
       onMouseUp={onMenuBlockUp}
       onClick={onClick}
-      className={`menu-block ${className ?? "menu-block_medium"}`}
+      className={`menu-block clickable ${className ?? "menu-block_medium"}`}
     >
       {!!Object.keys(title ?? {}).length && (
         <div className="menu-block__title">
