@@ -54,6 +54,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["React", "Vue", "TypeScript", "Sass"],
     githubUrl: "someurl",
     mainUrl: "url",
+    type: "commercial",
   },
   {
     title: "Keyauto",
@@ -62,6 +63,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["Vue", "JavaScript", "TailwindCSS"],
     githubUrl: "someurl",
     mainUrl: "url",
+    type: "commercial",
   },
   {
     title: "Luidor",
@@ -70,6 +72,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["Vue", "JavaScript", "TailwindCSS"],
     githubUrl: "someurl",
     mainUrl: "url",
+    type: "commercial",
   },
   {
     title: "Plants E-commerce",
@@ -79,6 +82,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["React", "JavaScript"],
     githubUrl: "https://github.com/No-colour-you-like/plants-e-commerce",
     mainUrl: "https://no-colour-you-like.github.io/plants-e-commerce/",
+    type: "personal",
   },
   {
     title: "GYM Sports",
@@ -88,6 +92,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["JavaScript", "Sass"],
     githubUrl: "https://github.com/No-colour-you-like/Gymsports",
     mainUrl: "https://no-colour-you-like.github.io/Gymsports/",
+    type: "personal",
   },
   {
     title: "Launcher Inc.",
@@ -97,6 +102,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["JavaScript", "Sass"],
     githubUrl: "https://github.com/No-colour-you-like/Launcher",
     mainUrl: "https://no-colour-you-like.github.io/Launcher",
+    type: "personal",
   },
   {
     title: "Photographer Portfolio",
@@ -106,6 +112,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["JavaScript", "Sass"],
     githubUrl: "https://github.com/No-colour-you-like/Photographer",
     mainUrl: "https://no-colour-you-like.github.io/Photographer/",
+    type: "personal",
   },
   {
     title: "Perfect Home",
@@ -115,6 +122,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["JavaScript", "Sass"],
     githubUrl: "https://github.com/No-colour-you-like/Perfect-home",
     mainUrl: "https://no-colour-you-like.github.io/Perfect-home/",
+    type: "personal",
   },
   {
     title: "Crypto Dashboard",
@@ -124,6 +132,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["JavaScript", "Sass"],
     githubUrl: "https://github.com/No-colour-you-like/Crypto",
     mainUrl: "https://no-colour-you-like.github.io/Crypto/",
+    type: "personal",
   },
   {
     title: "Wallet Dashboard",
@@ -133,6 +142,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["JavaScript", "Sass"],
     githubUrl: "https://github.com/No-colour-you-like/Wallet",
     mainUrl: "https://no-colour-you-like.github.io/Wallet/",
+    type: "personal",
   },
   {
     title: "Movies Dashboard",
@@ -142,6 +152,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["JavaScript", "Sass"],
     githubUrl: "https://github.com/No-colour-you-like/Movies",
     mainUrl: "https://no-colour-you-like.github.io/Movies/",
+    type: "personal",
   },
   {
     title: "Cinema Dashboard",
@@ -151,6 +162,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     techs: ["JavaScript", "Sass"],
     githubUrl: "https://github.com/No-colour-you-like/Cinema",
     mainUrl: "https://no-colour-you-like.github.io/Cinema/",
+    type: "personal",
   },
 ];
 

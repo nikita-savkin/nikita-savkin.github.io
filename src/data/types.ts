@@ -24,4 +24,5 @@ export interface ProjectExample {
   techs: string[];
   githubUrl: string;
   mainUrl: string;
+  type: string;
 }

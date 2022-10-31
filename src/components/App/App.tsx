@@ -15,20 +15,19 @@ import { middleBlocksTitles } from "../../data";
 import "./App.scss";
 
 const App = () => {
-  const [showedInfoMenu, setShowedInfoMenu] = useState<string | null>(null);
+  const [showedInfoMenu, setShowedInfoMenu] = useState<string | null>("02");
   const [infoMenuTitle, setInfoMenuTitle] = useState("");
-  const [isShowedPageLoader, setIsShowedPageLoader] = useState(true);
-  const [hideTypewriper, setHideTypewriper] = useState(false);
+  const [isShowedPageLoader, setIsShowedPageLoader] = useState(false);
+  const [hideTypewriper, setHideTypewriper] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
-      setHideTypewriper(true);
-    }, 5000);
-
-    setTimeout(() => {
-      setHideTypewriper(true);
-      setIsShowedPageLoader(false);
-    }, 5600);
+    // setTimeout(() => {
+    //   setHideTypewriper(true);
+    // }, 5000);
+    // setTimeout(() => {
+    //   setHideTypewriper(true);
+    //   setIsShowedPageLoader(false);
+    // }, 5600);
   }, []);
 
   const toggleInfoMenu = (id: string | null) => {

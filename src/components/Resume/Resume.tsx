@@ -22,14 +22,18 @@ const Resume = () => {
         <div className="gap">{experienceSingle.gap}</div>
         <h5>Duties:</h5>
         <div className="duties">
-          {experienceSingle.duties.map((duty: string) => (
-            <div className="duty">- {duty}</div>
+          {experienceSingle.duties.map((duty: string, idx: number) => (
+            <div className="duty" key={idx}>
+              - {duty}
+            </div>
           ))}
         </div>
         <div className="achievements">
           <h5>Achievements:</h5>
-          {experienceSingle.achievements.map((achievement: string) => (
-            <div className="achievement">- {achievement}</div>
+          {experienceSingle.achievements.map((achievement: string, idx: number) => (
+            <div className="achievement" key={idx}>
+              - {achievement}
+            </div>
           ))}
         </div>
       </div>
