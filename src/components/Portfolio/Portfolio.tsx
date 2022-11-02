@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, createRef } from "react";
 import { ProjectExampleInfo } from "../../data";
 import ProjectExample from "../ProjectExample/ProjectExample";
 import "./Portfolio.scss";
+import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 const Portfolio = () => {
   const [buttonActive, setButtonActive] = useState<string>("All");
@@ -9,19 +10,24 @@ const Portfolio = () => {
   const filterBtns = ["All", "Commercial", "My Lab"];
 
   const selectFilter = (btn: string) => {
-    const filteredProjects = ProjectExampleInfo.filter((project) => {
-      switch (btn) {
-        case "My Lab":
-          return project.type === "personal";
-        case "Commercial":
-          return project.type === "commercial";
-        default:
-          return project;
-      }
-    });
+    if (buttonActive !== btn) {
+      const filteredProjects = ProjectExampleInfo.filter((project) => {
+        switch (btn) {
+          case "My Lab":
+            return project.type === "personal";
+          case "Commercial":
+            return project.type === "commercial";
+          default:
+            return project;
+        }
+      });
 
-    setButtonActive(btn);
-    setProjects(filteredProjects);
+      setButtonActive(btn);
+      setProjects([]);
+      setTimeout(() => {
+        setProjects(filteredProjects);
+      }, 400);
+    }
   };
 
   return (
@@ -40,9 +46,15 @@ const Portfolio = () => {
           );
         })}
       </div>
-      {projects.map((example, idx) => (
-        <ProjectExample projectExample={example} index={idx} key={idx} />
-      ))}
+      <TransitionGroup>
+        {projects.map((example, idx) => {
+          return (
+            <CSSTransition timeout={500} classNames="fade" key={example.title}>
+              <ProjectExample projectExample={example} index={idx} />
+            </CSSTransition>
+          );
+        })}
+      </TransitionGroup>
     </div>
   );
 };
