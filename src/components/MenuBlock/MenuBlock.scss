@@ -55,6 +55,10 @@
   &__title-line {
     opacity: 0;
   }
+
+  .hidden-line {
+    visibility: hidden;
+  }
 }
 
 .transform-center-first {

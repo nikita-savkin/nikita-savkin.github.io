@@ -13,10 +13,9 @@
   }
 
   &__techs {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-row-gap: 50px;
-    margin-left: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .text {

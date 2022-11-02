@@ -14,6 +14,7 @@ interface MenuBlockType {
 const MenuBlock = ({ dynamic = true, className, title, children, showInfoMenu }: MenuBlockType) => {
   const [height, setHeight] = useState(0);
   const [width, setWidth] = useState(0);
+  const [hiddenLine, setHiddenLine] = useState(false);
 
   const menuBlockRef = useRef<HTMLDivElement>(null);
   const menuBlockLineRef = useRef<HTMLSpanElement>(null);
@@ -55,6 +56,7 @@ const MenuBlock = ({ dynamic = true, className, title, children, showInfoMenu }:
 
   const onMenuBlockEnter = () => {
     if (dynamic) {
+      setHiddenLine(false);
       blinkLine();
       blinkLineInterval = setInterval(blinkLine, 1000);
     }
@@ -67,6 +69,8 @@ const MenuBlock = ({ dynamic = true, className, title, children, showInfoMenu }:
   };
 
   const onMenuBlockLeave = () => {
+    setHiddenLine(true);
+
     if (menuBlockLineRef.current && menuBlockRef.current && dynamic) {
       menuBlockLineRef.current.style.opacity = "0";
       menuBlockRef.current.style.transform = "";
@@ -110,8 +114,11 @@ const MenuBlock = ({ dynamic = true, className, title, children, showInfoMenu }:
           <span ref={menuBlockBracketsRef} className="menu-block__title-brackets">
             ()
           </span>
-          <span ref={menuBlockLineRef} className="menu-block__title-line">
-            _
+          <span
+            ref={menuBlockLineRef}
+            className={`menu-block__title-line ${hiddenLine ? "hidden-line" : ""}`}
+          >
+            |
           </span>
         </div>
       )}
