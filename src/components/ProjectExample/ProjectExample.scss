@@ -1,13 +1,10 @@
 .project-example {
   position: relative;
-  display: flex;
   align-items: center;
   background: linear-gradient(180deg, rgba(61, 63, 73, 0.5), #000);
   border: 1px solid #3e3e3e;
   border-radius: 20px;
   display: flex;
-  align-items: center;
-  position: relative;
   padding: 20px;
   margin-bottom: 25px;
 
@@ -66,6 +63,10 @@
 
     .techs {
       margin-bottom: 8px;
+
+      .tech-circle {
+        margin: 0 10px 0 0 ;
+      }
     }
 
     .link-btn {
