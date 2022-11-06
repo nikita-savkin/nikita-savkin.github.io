@@ -1,3 +1,5 @@
+@import '../../assets/scss/vars';
+
 .main-menu {
   display: flex;
   transform: rotate(-30deg) translateY(-150px) translateX(130px);
@@ -16,13 +18,29 @@
   &_right {
     justify-content: end;
   }
+
+  &_center {
+    @media (max-width: $tablet) {
+      padding-top: 200px;
+    }
+
+    @media (max-width: $mobile-medium) {
+      position: relative;
+      right: 290px;
+      top: 90px;
+    }
+  }
+
+  @media (max-width: $laptop-small) {
+    transform: rotate(-30deg) translateY(2px) translateX(65px);
+  }
 }
 
 .showed-main-menu-block {
   animation: showMainMenuBlock 1s forwards;
 }
 
-.hidden-main-manu-block {
+.hidden-main-menu-block {
   opacity: 0;
   pointer-events: none;
 }

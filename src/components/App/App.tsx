@@ -1,6 +1,7 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, createRef } from 'react'
 import Typewriter from 'typewriter-effect'
 // @ts-ignore
+
 import AnimatedCursor from 'react-animated-cursor'
 
 import ParticlesComp from '../Particles'
@@ -19,6 +20,8 @@ const App = () => {
   const [infoMenuTitle, setInfoMenuTitle] = useState('')
   const [isShowedPageLoader, setIsShowedPageLoader] = useState(false)
   const [hideTypewriper, setHideTypewriper] = useState(true)
+
+  const infoMenuContent = createRef<HTMLDivElement>()
 
   useEffect(() => {
     // setTimeout(() => {
@@ -44,12 +47,18 @@ const App = () => {
     toggleInfoMenu(null)
   }
 
+  const portfolioUpdated = () => {
+    setTimeout(() => {
+      if (infoMenuContent.current) infoMenuContent.current.scrollTo(0, 0)
+    }, 500)
+  }
+
   const renderInfoMenuContent = () => {
     switch (showedInfoMenu) {
       case '01':
         return <AboutMe />
       case '02':
-        return <Portfolio />
+        return <Portfolio portfolioUpdated={portfolioUpdated} />
       case '03':
         return <Resume />
       case '04':
@@ -104,7 +113,12 @@ const App = () => {
       {showedInfoMenu && <div onClick={hideInfoMenu} className='bg-info-menu'></div>}
       <div className='container'>
         {!isShowedPageLoader && <MainMenu showInfoMenu={toggleInfoMenu} />}
-        <InfoMenu showedInfoMenu={showedInfoMenu} toggleInfoMenu={toggleInfoMenu} title={infoMenuTitle}>
+        <InfoMenu
+          contentRef={infoMenuContent}
+          showedInfoMenu={showedInfoMenu}
+          toggleInfoMenu={toggleInfoMenu}
+          title={infoMenuTitle}
+        >
           {renderInfoMenuContent()}
         </InfoMenu>
         <ParticlesComp />

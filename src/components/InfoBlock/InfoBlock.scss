@@ -1,3 +1,5 @@
+@import "../../assets/scss/vars";
+
 .name-block {
   .main__titles {
     transform: rotate(30deg);
@@ -35,6 +37,10 @@
       display: inline-block;
       margin-left: 100px;
     }
+
+    @media (max-width: $tablet) {
+      font-size: 60px;
+    }
   }
 
   .prof__title {
@@ -64,6 +70,10 @@
       left: auto;
       top: 10px;
       right: -40px;
+    }
+
+    @media (max-width: $tablet) {
+      font-size: 35px;
     }
   }
 

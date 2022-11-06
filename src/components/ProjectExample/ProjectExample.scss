@@ -1,3 +1,5 @@
+@import '../../assets/scss/vars';
+
 .project-example {
   position: relative;
   align-items: center;
@@ -27,6 +29,10 @@
       max-width: 420px;
       height: 100%;
       object-fit: cover;
+
+      @media (max-width: $tablet) {
+        max-width: 260px;
+      }
     }
   }
 
@@ -65,7 +71,7 @@
       margin-bottom: 8px;
 
       .tech-circle {
-        margin: 0 10px 0 0 ;
+        margin: 0 10px 0 0;
       }
     }
 
