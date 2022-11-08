@@ -5,7 +5,7 @@
     transform: rotate(30deg);
     margin-top: 95px;
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       margin-top: 70px;
     }
   }
@@ -42,11 +42,11 @@
       margin-left: 100px;
     }
 
-    @media (max-width: $tablet) {
+    @media (max-width: $laptop-small) {
       font-size: 60px;
     }
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       font-size: 40px;
       margin-bottom: 15px;
 
@@ -99,11 +99,11 @@
       right: -40px;
     }
 
-    @media (max-width: $tablet) {
+    @media (max-width: $laptop-small) {
       font-size: 35px;
     }
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       font-size: 23px;
 
       &::after,
@@ -143,7 +143,7 @@
         }
       }
 
-      @media (max-width: $mobile-medium) {
+      @media (max-width: $tablet) {
         width: 50px;
         height: 50px;
       }

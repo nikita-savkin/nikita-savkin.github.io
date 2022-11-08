@@ -13,7 +13,7 @@
     color: #fff;
     margin-bottom: 20px;
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       font-size: 20px;
     }
   }
@@ -24,16 +24,16 @@
     justify-content: space-between;
     grid-row-gap: 20px;
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       grid-template-columns: repeat(4, 60px);
     }
   }
 
   .text {
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 23px;
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       font-size: 16px;
     }
   }

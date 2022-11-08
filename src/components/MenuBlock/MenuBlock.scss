@@ -35,12 +35,12 @@
     width: 290px;
     height: 290px;
 
-    @media (max-width: $tablet) {
+    @media (max-width: $laptop-small) {
       width: 200px;
       height: 200px;
     }
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       width: 120px;
       height: 120px;
     }
@@ -50,12 +50,12 @@
     width: 480px;
     height: 480px;
 
-    @media (max-width: $tablet) {
+    @media (max-width: $laptop-small) {
       width: 400px;
       height: 400px;
     }
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       width: 280px;
       height: 280px;
     }
@@ -68,11 +68,11 @@
     transform: rotate(30deg);
     transition: 0.2s;
 
-    @media (max-width: $tablet) {
+    @media (max-width: $laptop-small) {
       font-size: 19px;
     }
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       font-size: 12px;
     }
   }
@@ -88,10 +88,18 @@
 
 .transform-center-first {
   transform: translateX(-1px);
+
+  @media (max-width: $tablet) {
+    transform: translateY(-1px) translateX(-1px);
+  }
 }
 
 .transform-center-second {
   transform: translateY(-1px) translateX(-1px);
+
+  @media (max-width: $tablet) {
+    transform: translateY(-1px) translateX(0);
+  }
 }
 
 .transform-left-second {
@@ -102,27 +110,28 @@
   position: relative;
   transform: translateY(-2px) translateX(-1px);
 
-  @media (max-width: $tablet) {
+  @media (max-width: $laptop-small) {
     transform: translateY(-1px);
     top: -200px;
     left: -200px;
   }
 
-  @media (max-width: $mobile-medium) {
-    transform: translateY(-1px) translateX(-1px);
+  @media (max-width: $tablet) {
+    transform: translateY(-2px) translateX(0);
     top: 120px;
     left: 120px;
   }
 }
 
 .menu-block_additional {
-  @media (max-width: $tablet) {
+  @media (max-width: $laptop-small) {
     transform: translateY(-1px);
     top: 200px;
     z-index: 1;
   }
 
-  @media (max-width: $mobile-medium) {
+  @media (max-width: $tablet) {
+    transform: translateY(-2px) translateX(1px);
     right: 280px;
     top: 120px;
   }

@@ -39,7 +39,7 @@
         right: -230px;
         background-color: rgba(#fff, 0.5);
 
-        @media (max-width: $mobile-medium) {
+        @media (max-width: $tablet) {
           width: 50px;
           right: -80px;
         }
@@ -70,11 +70,11 @@
     }
   }
 
-  @media (max-width: $tablet) {
+  @media (max-width: $laptop-small) {
     width: 600px;
   }
 
-  @media (max-width: $mobile-medium) {
+  @media (max-width: $tablet) {
     width: 100vw;
   }
 }

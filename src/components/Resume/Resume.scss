@@ -3,7 +3,7 @@
 .resume {
   display: flex;
 
-  @media (max-width: $mobile-medium) {
+  @media (max-width: $tablet) {
     flex-direction: column;
   }
 
@@ -26,7 +26,7 @@
   &__exp {
     padding-left: 24px;
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       padding-left: 0;
     }
   }

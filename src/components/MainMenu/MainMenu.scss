@@ -20,11 +20,11 @@
   }
 
   &_center {
-    @media (max-width: $tablet) {
+    @media (max-width: $laptop-small) {
       padding-top: 200px;
     }
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       flex-direction: row-reverse;
       position: relative;
       right: 400px;
@@ -32,7 +32,7 @@
     }
   }
 
-  @media (max-width: $laptop-small) {
+  @media (max-width: $laptop-medium) {
     transform: rotate(-30deg) translateY(2px) translateX(65px);
   }
 }

@@ -1,0 +1,142 @@
+$white: rgba(255, 255, 255, 0.3);
+
+.form-container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 200px;
+  left: 50%;
+}
+
+form {
+  background: $white;
+  padding: 40px 20px;
+  border-radius: 20px;
+  border-left: 1px solid $white;
+  border-top: 1px solid $white;
+  backdrop-filter: blur(5px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+
+  input,
+  textarea,
+  button {
+    background: transparent;
+    width: 260px;
+    padding: 1em;
+    margin-bottom: 2em;
+    border: none;
+    border-left: 1px solid $white;
+    border-top: 1px solid $white;
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    &[type='email'],
+    &[type='password'] {
+      &:focus {
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+
+  button {
+    width: 150px;
+    font-size: 1rem;
+    border-radius: 50px;
+    margin-bottom: 0;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      background: rgba(255, 255, 255, 0.2);
+    }
+  }
+
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+
+  &:hover {
+    margin: 4px;
+  }
+}
+
+::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.drop {
+  background: $white;
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  border-left: 1px solid $white;
+  border-top: 1px solid $white;
+  box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  transition: all 0.2s ease;
+
+  &-1 {
+    height: 40px;
+    width: 40px;
+    top: -10px;
+    left: -20px;
+    z-index: -1;
+  }
+
+  &-2 {
+    height: 80px;
+    width: 80px;
+    bottom: -30px;
+    right: -10px;
+  }
+
+  &-3 {
+    height: 100px;
+    width: 100px;
+    bottom: 120px;
+    right: -50px;
+    z-index: -1;
+  }
+
+  &-4 {
+    height: 70px;
+    width: 70px;
+    top: -30px;
+    right: -30px;
+  }
+
+  &-5 {
+    height: 60px;
+    width: 60px;
+    bottom: 170px;
+    left: 90px;
+    z-index: -1;
+  }
+}
+
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}

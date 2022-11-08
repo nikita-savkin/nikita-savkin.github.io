@@ -4,18 +4,23 @@
   .info {
     font-family: 'Calibre-light', sans-serif;
     font-size: 23px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: rgba(255, 255, 255, 0.9);
   }
 
   .content {
     display: flex;
+
+    .form-wrapper {
+      width: 50%;
+      position: relative;
+    }
   }
 
   .image {
     width: 50%;
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       display: none;
     }
   }
@@ -25,44 +30,13 @@
     margin-right: 20px;
     margin-left: 5px;
 
-    @media (max-width: $mobile-medium) {
+    @media (max-width: $tablet) {
       width: 100%;
       margin: 0;
     }
 
     &__title {
       font-size: 20px;
-      margin-bottom: 5px;
-    }
-
-    input,
-    textarea {
-      width: 100%;
-      margin-bottom: 25px;
-      padding: 12px 20px 5px;
-      border: none;
-      border-radius: 30px;
-      background-color: rgba(255, 255, 255, 0.3);
-      font-size: 20px;
-      color: #fff;
-      outline: none;
-    }
-
-    textarea {
-      height: 120px;
-      resize: none;
-      font-size: 20px;
-    }
-
-    button {
-      width: 200px;
-      padding: 13px 20px 8px;
-      font-size: 20px;
-      border: none;
-      border-radius: 20px;
-      background-color: #6d749f;
-      box-shadow: 0 4px 13px #6d749f;
-      color: #fff;
       margin-bottom: 5px;
     }
   }
