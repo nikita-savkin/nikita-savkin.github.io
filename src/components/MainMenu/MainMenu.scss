@@ -25,9 +25,10 @@
     }
 
     @media (max-width: $mobile-medium) {
+      flex-direction: row-reverse;
       position: relative;
-      right: 290px;
-      top: 90px;
+      right: 400px;
+      top: 80px;
     }
   }
 

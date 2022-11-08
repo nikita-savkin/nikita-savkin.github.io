@@ -1,6 +1,8 @@
+@import '../../assets/scss/vars';
+
 .contacts {
   .info {
-    font-family: "Calibre-light", sans-serif;
+    font-family: 'Calibre-light', sans-serif;
     font-size: 23px;
     margin-bottom: 40px;
     color: rgba(255, 255, 255, 0.9);
@@ -12,12 +14,21 @@
 
   .image {
     width: 50%;
+
+    @media (max-width: $mobile-medium) {
+      display: none;
+    }
   }
 
   .form {
     width: 50%;
     margin-right: 20px;
     margin-left: 5px;
+
+    @media (max-width: $mobile-medium) {
+      width: 100%;
+      margin: 0;
+    }
 
     &__title {
       font-size: 20px;

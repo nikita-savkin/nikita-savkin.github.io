@@ -1,5 +1,11 @@
+@import '../../assets/scss/vars';
+
 .resume {
   display: flex;
+
+  @media (max-width: $mobile-medium) {
+    flex-direction: column;
+  }
 
   &__subtitle {
     display: inline-flex;
@@ -7,7 +13,7 @@
     justify-content: center;
     padding: 10px 10px 3px 10px;
     font-size: 23px;
-    background-color: #828BC4;
+    background-color: #828bc4;
     margin-bottom: 20px;
   }
 
@@ -19,6 +25,10 @@
 
   &__exp {
     padding-left: 24px;
+
+    @media (max-width: $mobile-medium) {
+      padding-left: 0;
+    }
   }
 
   .skills {

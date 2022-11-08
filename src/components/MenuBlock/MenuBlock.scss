@@ -56,8 +56,8 @@
     }
 
     @media (max-width: $mobile-medium) {
-      width: 290px;
-      height: 290px;
+      width: 280px;
+      height: 280px;
     }
   }
 
@@ -103,18 +103,28 @@
   transform: translateY(-2px) translateX(-1px);
 
   @media (max-width: $tablet) {
+    transform: translateY(-1px);
+    top: -200px;
     left: -200px;
   }
 
   @media (max-width: $mobile-medium) {
-    left: -120px;
-    top: -120px;
+    transform: translateY(-1px) translateX(-1px);
+    top: 120px;
+    left: 120px;
   }
 }
 
 .menu-block_additional {
+  @media (max-width: $tablet) {
+    transform: translateY(-1px);
+    top: 200px;
+    z-index: 1;
+  }
+
   @media (max-width: $mobile-medium) {
-    right: 52px;
+    right: 280px;
+    top: 120px;
   }
 }
 
