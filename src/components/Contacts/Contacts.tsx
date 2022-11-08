@@ -14,7 +14,7 @@ const Contacts = () => {
         </div>
         <div className='image'>
           <div className='main'>
-            <img src='./img/mail.png' alt='' />
+            <img src='./img/mail.png' alt='box' />
           </div>
         </div>
       </div>
