@@ -12,7 +12,7 @@
 
   &:last-child {
     border-bottom: none;
-    margin-bottom: 0;
+    margin-bottom: 5px;
   }
 
   &__image {
@@ -73,7 +73,7 @@
 
     .about {
       width: 350px;
-      padding: 20px;
+      padding: 15px 20px 10px 20px;
       background-color: rgba(#161827, 0.9);
       font-size: 18px;
       text-align: left;
@@ -156,8 +156,8 @@
         font-size: 17px;
       }
 
-      &:first-child {
-        margin-right: 13px;
+      &:last-child {
+        margin-left: 13px;
       }
     }
   }
@@ -168,6 +168,16 @@
         align-items: start;
         margin-left: 0;
         margin-right: auto;
+
+        .link-btn {
+          &:first-child {
+            margin-right: 13px;
+          }
+
+          &:last-child {
+            margin-left: 0;
+          }
+        }
       }
 
       &__image {

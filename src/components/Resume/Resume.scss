@@ -31,11 +31,16 @@
     }
   }
 
-  .skills {
+  .education {
+    margin-bottom: 40px;
+  }
+
+  .skills,
+  .education {
     margin-bottom: 40px;
 
     h4 {
-      font-size: 23px;
+      font-size: 22px;
       margin-bottom: 5px;
     }
 
@@ -53,6 +58,18 @@
 
       span {
         margin-bottom: 7px;
+      }
+    }
+
+    .education {
+      h4 {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+      .year {
+        display: block;
+        margin-bottom: 5px;
       }
     }
   }
@@ -86,6 +103,11 @@
       font-size: 18px;
       color: #a3b7ee;
       margin-bottom: 15px;
+    }
+
+    .main-duty {
+      font-size: 19px;
+      margin-bottom: 16px;
     }
 
     .duties {

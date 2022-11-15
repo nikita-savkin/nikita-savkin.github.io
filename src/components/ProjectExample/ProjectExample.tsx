@@ -31,10 +31,12 @@ const ProjectExample = ({ projectExample, index }: any) => {
             <img src='./img/icons/eye.svg' alt='link-logo' />
             <span>Link</span>
           </a>
-          <a href={projectExample.githubUrl} className='link-btn' rel='noreferrer' target='_blank'>
-            <img src='./img/icons/github-white.svg' alt='github-logo' />
-            <span>Github</span>
-          </a>
+          {projectExample.githubUrl && (
+            <a href={projectExample.githubUrl} className='link-btn' rel='noreferrer' target='_blank'>
+              <img src='./img/icons/github-white.svg' alt='github-logo' />
+              <span>Github</span>
+            </a>
+          )}
         </div>
       </div>
     </div>

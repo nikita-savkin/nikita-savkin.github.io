@@ -6,33 +6,16 @@ const Resume = () => {
     return <h3 className='resume__subtitle'>{subtitle}</h3>
   }
 
-  const MiniBlock = (title: string, info: string, key: number) => {
-    return (
-      <div key={key} className='mini-block'>
-        <h4>{title}</h4>
-        <span>{info}</span>
-      </div>
-    )
-  }
-
   const ExperienceSingle = (experienceSingle: any, key: number) => {
     return (
       <div key={key} className='exp-single'>
         <h4>{experienceSingle.title}</h4>
         <div className='gap'>{experienceSingle.gap}</div>
-        <h5>Duties:</h5>
+        <p className='main-duty'>{experienceSingle.mainDuty}</p>
         <div className='duties'>
-          {experienceSingle.duties.map((duty: string, idx: number) => (
+          {experienceSingle.otherDuties.map((duty: string, idx: number) => (
             <div className='duty' key={idx}>
               - {duty}
-            </div>
-          ))}
-        </div>
-        <div className='achievements'>
-          <h5>Achievements:</h5>
-          {experienceSingle.achievements.map((achievement: string, idx: number) => (
-            <div className='achievement' key={idx}>
-              - {achievement}
             </div>
           ))}
         </div>
@@ -45,7 +28,24 @@ const Resume = () => {
       <div className='resume__skills'>
         {SubTitle('Hard Skills')}
         <div className='skills'>
-          {resume.hardSkills.map((hardSkill, idx) => MiniBlock(hardSkill.title, hardSkill.info, idx))}
+          {resume.hardSkills.map((hardSkill, idx) => (
+            <div key={idx} className='mini-block'>
+              <h4>{hardSkill.title}</h4>
+              <span>{hardSkill.info}</span>
+            </div>
+          ))}
+        </div>
+        <div className='skills'>
+          {SubTitle('Education')}
+          <div className='education'>
+            {resume.education.map((education, idx) => (
+              <div key={idx} className='mini-block'>
+                <span className='year'>{education.year}</span>
+                <h4>{education.title}</h4>
+                <span>{education.source}</span>
+              </div>
+            ))}
+          </div>
         </div>
         <div className='skills'>
           {SubTitle('Soft Skills')}
