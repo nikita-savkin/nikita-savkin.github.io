@@ -9,11 +9,11 @@ interface MainMenuType {
 }
 
 const MainMenu = ({ showInfoMenu }: MainMenuType) => {
-  const [showFirstBlock, setShowFirstBlock] = useState(true)
-  const [showSecondBlock, setShowSecondBlock] = useState(true)
-  const [showThirdBlock, setShowThirdBlock] = useState(true)
-  const [showFourthBlock, setShoWFourthBlock] = useState(true)
-  const [showFifthBlock, setShowFifthBlock] = useState(true)
+  const [showFirstBlock, setShowFirstBlock] = useState(false)
+  const [showSecondBlock, setShowSecondBlock] = useState(false)
+  const [showThirdBlock, setShowThirdBlock] = useState(false)
+  const [showFourthBlock, setShoWFourthBlock] = useState(false)
+  const [showFifthBlock, setShowFifthBlock] = useState(false)
   const [screenWidth, seScreentWidth] = useState(window.innerWidth)
 
   const screenBreakpoints = {
@@ -34,21 +34,21 @@ const MainMenu = ({ showInfoMenu }: MainMenuType) => {
   })
 
   useEffect(() => {
-    // setTimeout(() => {
-    //   setShowFirstBlock(true);
-    // }, 200);
-    // setTimeout(() => {
-    //   setShowSecondBlock(true);
-    // }, 600);
-    // setTimeout(() => {
-    //   setShowThirdBlock(true);
-    // }, 1000);
-    // setTimeout(() => {
-    //   setShoWFourthBlock(true);
-    // }, 1400);
-    // setTimeout(() => {
-    //   setShowFifthBlock(true);
-    // }, 1800);
+    setTimeout(() => {
+      setShowFirstBlock(true)
+    }, 200)
+    setTimeout(() => {
+      setShowSecondBlock(true)
+    }, 600)
+    setTimeout(() => {
+      setShowThirdBlock(true)
+    }, 1000)
+    setTimeout(() => {
+      setShoWFourthBlock(true)
+    }, 1400)
+    setTimeout(() => {
+      setShowFifthBlock(true)
+    }, 1800)
   })
 
   return (

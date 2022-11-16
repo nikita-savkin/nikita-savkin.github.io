@@ -1,13 +1,17 @@
-import React, { createRef } from 'react'
+import React, { createRef, useState } from 'react'
 import emailjs from '@emailjs/browser'
 import './ContactForm.scss'
 
 const ContactForm = () => {
+  const [showedThanks, setShowedThanks] = useState(false)
+  const [firstName, setFirstName] = useState('')
+  const [email, setEmail] = useState('')
+  const [message, setMessage] = useState('')
   const form = createRef<HTMLFormElement>()
 
   const sendEmail = (e: any) => {
-    console.log(form.current)
     e.preventDefault()
+    setShowedThanks(true)
 
     if (form.current) {
       emailjs.sendForm('service_my96ckv', 'template_rno7pi9', form.current, 'ho_Xbu3Uhg2wX6dBJ').then(
@@ -19,16 +23,46 @@ const ContactForm = () => {
         },
       )
     }
+
+    setTimeout(() => {
+      setFirstName('')
+      setEmail('')
+      setMessage('')
+      setShowedThanks(false)
+    }, 5000)
   }
 
   return (
     <div className='form-container'>
+      {showedThanks && (
+        <div className='thanks-msg'>
+          <span>Thank you!</span>
+          <span>I'll reply as soon as possible!</span>
+        </div>
+      )}
       <form ref={form} onSubmit={sendEmail}>
-        <input type='text' placeholder='Name' name='from_name'></input>
+        <input
+          value={firstName}
+          onChange={(event) => setFirstName(event.target.value)}
+          type='text'
+          placeholder='Name'
+          name='from_name'
+        ></input>
         <br />
-        <input type='email' placeholder='Email' name='from_name'></input>
+        <input
+          value={email}
+          onChange={(event) => setEmail(event.target.value)}
+          type='email'
+          placeholder='Email'
+          name='from_name'
+        ></input>
         <br />
-        <textarea placeholder='Type something...' name='message' />
+        <textarea
+          value={message}
+          onChange={(event) => setMessage(event.target.value)}
+          placeholder='Type something...'
+          name='message'
+        />
         <br />
         <button>Send</button>
         <br />

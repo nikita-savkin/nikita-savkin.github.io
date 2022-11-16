@@ -5,6 +5,22 @@ $white: rgba(255, 255, 255, 0.3);
   transform: translate(-50%, -50%);
   top: 200px;
   left: 50%;
+
+  .thanks-msg {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(#000, 0.7);
+    border-radius: 20px;
+    z-index: 1;
+    font-size: 23px;
+  }
 }
 
 form {

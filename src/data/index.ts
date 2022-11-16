@@ -26,7 +26,7 @@ export const middleBlocksTitles: Title[] = [
 export const personalInfo: PersonalInfo = {
   name: 'Nikita',
   surname: 'Savkin',
-  profession: 'Front-End Developer',
+  profession: 'Frontend Developer',
   links: [
     {
       id: 'email',
@@ -224,8 +224,7 @@ export const resume = {
     {
       title: 'Freelance Web Developer | Autodrive Agency',
       gap: 'September 2019 - March 2021',
-      mainDuty:
-        "Developed and maintained code for clients' websites primarily using HTML, CSS (Sass)\n" + 'and JavaScript.',
+      mainDuty: "Developed and maintained code for clients' websites primarily using HTML, CSS (Sass) and JavaScript.",
       otherDuties: [
         'Implemented a "mobile-first" approach to creating new projects',
         'Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness',
