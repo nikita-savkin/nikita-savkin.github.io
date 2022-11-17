@@ -101,7 +101,7 @@ const App = () => {
           <Typewriter
             options={{
               wrapperClassName: 'typewriter-wrapper',
-              strings: ['Hi. I’m Nikita, nice to meet you.'],
+              strings: ['Hey! It’s sooo nice to meet you here!'],
               autoStart: true,
               loop: false,
               deleteSpeed: 1,
