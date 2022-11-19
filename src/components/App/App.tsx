@@ -26,11 +26,11 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setHideTypewriper(true)
-    }, 5000)
+    }, 5500)
     setTimeout(() => {
       setHideTypewriper(true)
       setIsShowedPageLoader(false)
-    }, 5600)
+    }, 6500)
   }, [])
 
   const toggleInfoMenu = (id: string | null) => {
@@ -101,11 +101,11 @@ const App = () => {
           <Typewriter
             options={{
               wrapperClassName: 'typewriter-wrapper',
-              strings: ['Hey! It’s sooo nice to meet you here!'],
+              strings: ['Hey! It’s so nice to meet you here!'],
               autoStart: true,
               loop: false,
               deleteSpeed: 1,
-              delay: 70,
+              delay: 90,
             }}
           />
         </div>

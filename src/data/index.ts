@@ -40,7 +40,7 @@ export const personalInfo: PersonalInfo = {
     },
     {
       id: 'github',
-      url: 'https://github.com/No-colour-you-like',
+      url: 'https://github.com/no-colour-you-like',
       icon: './img/icons/github.svg',
     },
   ],
@@ -51,7 +51,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Happy Inc',
     imageUrl: './img/portfolio/hj.jpeg',
     description:
-      'Online platform for research and development of employee engagement, that helps organizations to study the status and needs of their employees in real time.',
+      'Online platform for research and increase of employee engagement, that helps organizations to study the satisfaction level and needs of their employees in real time.',
     techs: ['React', 'Vue', 'TypeScript', 'Sass'],
     mainUrl: 'https://happy-job.ru/',
     type: 'commercial',
@@ -60,7 +60,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Keyauto',
     imageUrl: './img/portfolio/keyauto.jpeg',
     description:
-      'Online shop for car dealer "KeyAuto". In 2021 company took 108th place in the ranking of the 200 largest private companies in Russia according to Forbes.',
+      'Online shop for car dealer "KeyAuto". In 2021 company took 108th place in the rating of the 200 largest private companies in Russia according to Forbes.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://keyauto.ru/',
     type: 'commercial',
@@ -69,7 +69,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Luidor',
     imageUrl: './img/portfolio/luidor.png',
     description:
-      'An online store for a car dealer who occupies a confident position in the market for the purchase and sale of used cars.',
+      'An online store for a car dealer who occupies a strong position in the market for the purchase and sale of used cars.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://luidor-expert.ru/',
     type: 'commercial',
@@ -88,7 +88,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'GYM Sports',
     imageUrl: './img/portfolio/gymsports.jpg',
     description:
-      'In this project, I created a convenient website for a fitness club, where you can find out all the information about training, schedule and payment terms.',
+      'In this project I created a convenient website for a fitness club, where you can find out all the information about training, schedule and payment terms.',
     techs: ['JavaScript', 'Sass'],
     githubUrl: 'https://github.com/No-colour-you-like/Gymsports',
     mainUrl: 'https://no-colour-you-like.github.io/Gymsports/',
@@ -146,7 +146,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Movies Dashboard',
     imageUrl: './img/portfolio/movies.jpg',
     description:
-      'In this application, I created a user-friendly navigation with popular movie lists. This app allows to filter films by genre and year, as well as sort them by main parameters.',
+      'In this application I created a user-friendly navigation with popular movies lists. This app allows to filter films by genre and year, as well as sort them by main parameters.',
     techs: ['JavaScript', 'Sass'],
     githubUrl: 'https://github.com/No-colour-you-like/Movies',
     mainUrl: 'https://no-colour-you-like.github.io/Movies/',
@@ -156,7 +156,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Cinema Dashboard',
     imageUrl: './img/portfolio/cinema.jpg',
     description:
-      'This project is part of the purchase of cinema tickets. This part includes the choice of movie, cinema, time and seat.',
+      'This app allows to purchase cinema tickets. It provides you with possibility to choose a movie, cinema, time and seat.',
     techs: ['JavaScript', 'Sass'],
     githubUrl: 'https://github.com/No-colour-you-like/Cinema',
     mainUrl: 'https://no-colour-you-like.github.io/Cinema/',
@@ -203,7 +203,7 @@ export const resume = {
       gap: 'April 2022 - Present',
       mainDuty: 'Worked with applications in a single powerful online survey platform using React and Vue.',
       otherDuties: [
-        "Developed and redesigned platform components and elaborated new personal reports for the company's clients",
+        "Architected 2 new personal reports for the company's clients, developed and redesigned platform components for compatibility with previous reports",
         'Engineered and maintained new major features for online survey application',
         'Developed new functions for the admin panel in order to flexibly configure the online survey application and the report panel',
         'Interacted productively with the designer, manager and backend developers to improve the quality of the whole system and create the most user friendly interface',
@@ -214,21 +214,22 @@ export const resume = {
       gap: 'March 2021 - April 2022',
       mainDuty: 'Developed e-commerce projects for car dealers and other businesses as a frontend engineer.',
       otherDuties: [
-        'Developed high-end, HTML5 and CSS templates to support mobile and desktop environments',
-        'Investigated, evaluated, and debugged application issues across time',
-        'Optimized applications for maximum speed and scalability',
-        'Introduced and enforced a consistent coding style across the applications',
+        'Developed 3 high-quality online stores from scratch using Vue 3, VueX, Vue Router, TailwindCSS with support for mobile and desktop versions of applications',
+        'Implemented admin panels for online stores',
+        'Investigated, evaluated and debugged application issues across time',
+        'Improved the productivity and availability of projects using Google Lighthouse on 15%',
+        'Introduced and enforced a consistent coding style across the applications using ESLint and Prettier',
         'Eliminated dead code thereby making it more readable for all team',
       ],
     },
     {
-      title: 'Freelance Web Developer | Autodrive Agency',
+      title: 'Freelance Web Developer',
       gap: 'September 2019 - March 2021',
       mainDuty: "Developed and maintained code for clients' websites primarily using HTML, CSS (Sass) and JavaScript.",
       otherDuties: [
-        'Implemented a "mobile-first" approach to creating new projects',
+        'Implemented a "mobile-first" approach to creating new projects which increased the development speed by 20%',
         'Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness',
-        'Wrote modern, performant, maintainable code for websites',
+        'Wrote modern, performant, and robust code for a diverse array of client',
       ],
     },
   ],
@@ -311,8 +312,8 @@ export const techs = [
 
 export const aboutMe = {
   textBlocks: [
-    "Hi! I'm a Front-End Developer who specializes in building exceptional digital experiences. I strive to create immersive, beautiful, user-friendly web applications with quality and carefully designed code.",
-    'I always care about what I create, keep learning new things and challenging myself. I enjoy gaining experience in the field of web development and discovering something new for myself.',
+    "Hi! I specialise in creating unique web applications. I strive to create visually compelling, user-friendly applications with high-quality and well-designed code. I'm well-organized person, problem solver and responsible coder.",
+    'I always care about what I create, keep learning new things and challenge myself. I enjoy gaining experience in the field of web development and discovering something new for myself.',
   ],
   techsTitle: "Here are a few technologies I've been working with:",
 }
