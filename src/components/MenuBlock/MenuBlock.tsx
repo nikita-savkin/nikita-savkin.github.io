@@ -55,10 +55,10 @@ const MenuBlock = ({ dynamic = true, className, title, children, showInfoMenu }:
     const xVal = e.nativeEvent.layerX
     const yVal = e.nativeEvent.layerY
 
-    const yRotation = 20 * ((xVal - width / 2) / width)
-    const xRotation = -20 * ((yVal - height / 2) / height)
+    const yRotation = 17 * ((xVal - width / 2) / width)
+    const xRotation = -17 * ((yVal - height / 2) / height)
 
-    const transformStyle = `perspective(800px) scale(1.1) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`
+    const transformStyle = `perspective(800px) translate3d(0, 0, 10px) scale(1.1) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`
 
     if (menuBlockRef.current && dynamic) {
       menuBlockRef.current.style.transform = transformStyle

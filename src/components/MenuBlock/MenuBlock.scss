@@ -49,6 +49,7 @@
   &_large {
     width: 480px;
     height: 480px;
+    transform: translate3d(0, 0, -200px);
 
     @media (max-width: $laptop-small) {
       width: 400px;
@@ -87,28 +88,28 @@
 }
 
 .transform-center-first {
-  transform: translateX(-1px);
+  transform: translateX(-1px) translate3d(0, 0, -200px);
 
   @media (max-width: $tablet) {
-    transform: translateY(-1px) translateX(-1px);
+    transform: translateY(-1px) translateX(-1px) translate3d(0, 0, -200px);
   }
 }
 
 .transform-center-second {
-  transform: translateY(-1px) translateX(-1px);
+  transform: translateY(-1px) translateX(-1px) translate3d(0, 0, -200px);
 
   @media (max-width: $tablet) {
-    transform: translateY(-1px) translateX(0);
+    transform: translateY(-1px) translateX(0) translate3d(0, 0, -200px);
   }
 }
 
 .transform-left-second {
-  transform: translateY(-1px);
+  transform: translateY(-1px) translate3d(0, 0, -200px);
 }
 
 .transform-center-third {
   position: relative;
-  transform: translateY(-2px) translateX(-1px);
+  transform: translateY(-2px) translateX(-1px) translate3d(0, 0, -200px);
 
   @media (max-width: $laptop-small) {
     transform: translateY(-1px);
@@ -117,7 +118,7 @@
   }
 
   @media (max-width: $tablet) {
-    transform: translateY(-2px) translateX(0);
+    transform: translateY(-2px) translateX(0) translate3d(0, 0, -200px);
     top: 120px;
     left: 120px;
   }
@@ -131,7 +132,7 @@
   }
 
   @media (max-width: $tablet) {
-    transform: translateY(-2px) translateX(1px);
+    transform: translateY(-2px) translateX(1px) translate3d(0, 0, -200px);
     right: 280px;
     top: 120px;
   }
@@ -139,7 +140,7 @@
 
 .transform-right-first {
   margin-bottom: 150px;
-  transform: translateX(-2px);
+  transform: translateX(-2px) translate3d(0, 0, -200px);
 }
 
 .no-hover {
