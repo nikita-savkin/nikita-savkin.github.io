@@ -11,9 +11,10 @@ const ContactForm = () => {
 
   const sendEmail = (e: any) => {
     e.preventDefault()
-    setShowedThanks(true)
 
     if (form.current) {
+      setShowedThanks(true)
+
       emailjs.sendForm('service_my96ckv', 'template_rno7pi9', form.current, 'ho_Xbu3Uhg2wX6dBJ').then(
         (result) => {
           console.log(result.text)

@@ -9,11 +9,10 @@
   transition: 0.2s;
   backdrop-filter: blur(3px);
   cursor: pointer;
-  transform: translateZ(10px);
 
   &:hover {
     box-shadow: inset 0 0 30px 50px #111124;
-    transform: translateZ(10px);
+    z-index: 2;
 
     .menu-block {
       &__title {

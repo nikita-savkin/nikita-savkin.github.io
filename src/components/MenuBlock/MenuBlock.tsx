@@ -58,12 +58,10 @@ const MenuBlock = ({ dynamic = true, className, title, children, showInfoMenu }:
     const yRotation = 20 * ((xVal - width / 2) / width)
     const xRotation = -20 * ((yVal - height / 2) / height)
 
-    const transformStyle =
-      'perspective(800px) scale(1.1) rotateX(' + xRotation + 'deg) rotateY(' + yRotation + 'deg) translateZ(10px)'
+    const transformStyle = `perspective(800px) scale(1.1) rotateX(${xRotation}deg) rotateY(${yRotation}deg)`
 
     if (menuBlockRef.current && dynamic) {
       menuBlockRef.current.style.transform = transformStyle
-      menuBlockRef.current.style.zIndex = '5'
     }
   }
 
@@ -80,8 +78,7 @@ const MenuBlock = ({ dynamic = true, className, title, children, showInfoMenu }:
 
     if (menuBlockLineRef.current && menuBlockRef.current && dynamic) {
       menuBlockLineRef.current.style.opacity = '0'
-      menuBlockRef.current.style.transform = 'translateZ(10px)'
-      menuBlockRef.current.style.zIndex = '0'
+      menuBlockRef.current.style.transform = ''
     }
   }
 
