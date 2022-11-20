@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.28e0be17.css",
-    "main.js": "/static/js/main.e439b9a4.js",
+    "main.css": "/static/css/main.a371a271.css",
+    "main.js": "/static/js/main.b2c63791.js",
     "static/media/Helvetica-Outline.ttf": "/static/media/Helvetica-Outline.5de9867ce84cf2d05cbb.ttf",
     "static/media/RobotoMono-Regular.ttf": "/static/media/RobotoMono-Regular.34e46962590bff8eefe5.ttf",
     "static/media/Calibre-Semibold.ttf": "/static/media/Calibre-Semibold.0208f194a01d73daec7a.ttf",
@@ -17,11 +17,11 @@
     "static/media/Calibre-Regular.woff2": "/static/media/Calibre-Regular.b0d4cbb1201155ddccc2.woff2",
     "static/media/Calibre-Medium.woff2": "/static/media/Calibre-Medium.568dce56f869a519a015.woff2",
     "index.html": "/index.html",
-    "main.28e0be17.css.map": "/static/css/main.28e0be17.css.map",
-    "main.e439b9a4.js.map": "/static/js/main.e439b9a4.js.map"
+    "main.a371a271.css.map": "/static/css/main.a371a271.css.map",
+    "main.b2c63791.js.map": "/static/js/main.b2c63791.js.map"
   },
   "entrypoints": [
-    "static/css/main.28e0be17.css",
-    "static/js/main.e439b9a4.js"
+    "static/css/main.a371a271.css",
+    "static/js/main.b2c63791.js"
   ]
 }
