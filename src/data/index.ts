@@ -49,7 +49,7 @@ export const personalInfo: PersonalInfo = {
 export const ProjectExampleInfo: ProjectExample[] = [
   {
     title: 'Happy Inc',
-    imageUrl: './img/portfolio/hj.jpeg',
+    imageUrl: './img/portfolio/hj.webp',
     description:
       'Online platform for research and increase of employee engagement, that helps organizations to study the satisfaction level and needs of their employees in real time.',
     techs: ['React', 'Vue', 'TypeScript', 'Sass'],
@@ -58,7 +58,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
   },
   {
     title: 'Keyauto',
-    imageUrl: './img/portfolio/keyauto.jpeg',
+    imageUrl: './img/portfolio/keyauto.webp',
     description:
       'Online shop for car dealer "KeyAuto". In 2021 company took 108th place in the rating of the 200 largest private companies in Russia according to Forbes.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
@@ -67,7 +67,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
   },
   {
     title: 'Luidor',
-    imageUrl: './img/portfolio/luidor.png',
+    imageUrl: './img/portfolio/luidor.webp',
     description:
       'An online store for a car dealer who occupies a strong position in the market for the purchase and sale of used cars.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
@@ -76,7 +76,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
   },
   {
     title: 'Vsem Sad',
-    imageUrl: './img/portfolio/plants.jpeg',
+    imageUrl: './img/portfolio/plants.webp',
     description:
       'E-commerce plants store is online shop that offer a variety of plants with convenient shopping, shipping options, and plant care advices.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
@@ -85,7 +85,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
   },
   {
     title: 'Vinyl Adventure Store',
-    imageUrl: './img/portfolio/vinyl-store.jpeg',
+    imageUrl: './img/portfolio/vinyl-store.webp',
     description:
       "Experimental project employs the MERN stack, along with TypeScript and Styled Components, to showcase a store's range of products with filtering.",
     techs: ['React', 'TypeScript'],
@@ -95,7 +95,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
   },
   {
     title: 'Crypto Dashboard',
-    imageUrl: './img/portfolio/crypto.jpg',
+    imageUrl: './img/portfolio/crypto.webp',
     description:
       'This application allows to track three types of cryptocurrencies in real time. It is also possible to use a currency converter and track the dynamics of the cryptocurrency.',
     techs: ['JavaScript', 'Sass'],
@@ -105,7 +105,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
   },
   {
     title: 'Wallet Dashboard',
-    imageUrl: './img/portfolio/wallet.jpg',
+    imageUrl: './img/portfolio/wallet.webp',
     description:
       'Wallet Dashboard helps to record expenses and income. Allows to add and remove transactions, track the type and date of expenses.',
     techs: ['JavaScript', 'Sass'],
