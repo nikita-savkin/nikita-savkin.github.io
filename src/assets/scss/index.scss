@@ -7,13 +7,21 @@
   cursor: default !important;
 }
 
+html,
+body {
+  height: 100%;
+  overflow: hidden !important;
+  width: 100%;
+  position: fixed;
+}
+
 body {
   font-family: 'Calibre-reg', sans-serif;
   font-weight: 300;
-  width: 100%;
+  width: 100vw;
+  height: 100vh;
   margin: 0 auto;
   color: #fff;
-  overflow: hidden;
 }
 
 input,

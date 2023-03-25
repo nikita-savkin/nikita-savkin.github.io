@@ -1,7 +1,14 @@
+@import '../../assets/scss/vars';
+
+.app {
+  width: 100%;
+  height: 100%;
+}
+
 .wrapper {
   position: relative;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 
   .hidden-typewriter {
     animation: hidePageLoad 1s forwards;
@@ -25,12 +32,16 @@
       background-color: #131625;
     }
 
-    .typewriter-wrapper {
-      font-size: 40px;
-    }
-
     .Typewriter {
       z-index: 1;
+
+      .typewriter-wrapper {
+        font-size: 40px;
+
+        @media (max-width: $laptop-small) {
+          font-size: 25px;
+        }
+      }
 
       .Typewriter__cursor {
         font-size: 40px;
@@ -54,6 +65,19 @@
     width: 100%;
     height: 100%;
     z-index: 1;
+    background-color: #000;
+    opacity: 0.3;
+    animation-name: fadeIn;
+    animation-duration: 0.5s;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.3;
   }
 }
 

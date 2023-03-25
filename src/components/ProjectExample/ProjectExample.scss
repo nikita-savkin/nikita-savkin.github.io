@@ -3,12 +3,13 @@
 .project-example {
   position: relative;
   align-items: center;
-  background: linear-gradient(180deg, rgba(61, 63, 73, 0.5), #000);
+  background: linear-gradient(180deg, rgba(39, 39, 47, 0.5), #000);
   border: 1px solid #3e3e3e;
   border-radius: 20px;
   display: flex;
   padding: 20px;
   margin-bottom: 25px;
+  box-shadow: 0 10px 20px -7px rgba(0, 0, 0, 0.68);
 
   &:last-child {
     border-bottom: none;
@@ -24,6 +25,10 @@
     height: 100%;
     padding: 20px 0;
     overflow: hidden;
+
+    @media (max-width: $tablet) {
+      max-height: 175px;
+    }
 
     img {
       max-width: 420px;
@@ -57,7 +62,7 @@
     justify-content: space-between;
     position: relative;
     max-width: 50%;
-    height: 260px;
+    min-height: 260px;
     margin-left: auto;
     z-index: 1;
 
@@ -83,7 +88,10 @@
       box-shadow: 0 10px 30px 0 rgba(#fff, 0.2);
 
       @media (max-width: $tablet) {
-        display: none;
+        width: 100%;
+        font-size: 16px;
+        padding: 7px 10px;
+        margin-top: 160px;
       }
     }
 

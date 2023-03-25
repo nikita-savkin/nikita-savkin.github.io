@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 25px;
-    background-color: #0b1032;
+    background-color: #242841;
     z-index: 2;
   }
 
@@ -21,7 +21,7 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    background-color: #0b1032;
+    background-color: #242841;
     cursor: pointer;
     transition: 0.3s;
 
@@ -54,11 +54,11 @@
     }
 
     &:hover span {
-      color: #0b1032;
+      color: #242841;
     }
 
     &:hover {
-      background-color: #0b1032;
+      background-color: #242841;
       box-shadow: 0 3px 20px rgba(#fff, 0.7);
     }
 
@@ -68,11 +68,11 @@
   }
 
   .active-filter-btn {
-    background-color: #0b1032;
+    background-color: #242841;
     box-shadow: 0 3px 20px rgba(#fff, 0.7);
 
     span {
-      color: #0b1032;
+      color: #242841;
     }
 
     .translate-btn {

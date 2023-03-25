@@ -75,51 +75,22 @@ export const ProjectExampleInfo: ProjectExample[] = [
     type: 'commercial',
   },
   {
-    title: 'Plants E-commerce',
-    imageUrl: './img/portfolio/plants.jpg',
+    title: 'Vsem Sad',
+    imageUrl: './img/portfolio/plants.jpeg',
     description:
-      'This SPA represents the plant store. Here you can find out the assortment of the store, information about products, register an account and add products to the basket.',
-    techs: ['React', 'JavaScript'],
-    githubUrl: 'https://github.com/No-colour-you-like/plants-e-commerce',
-    mainUrl: 'https://no-colour-you-like.github.io/plants-e-commerce/',
-    type: 'personal',
+      'E-commerce plants store is online shop that offer a variety of plants with convenient shopping, shipping options, and plant care advices.',
+    techs: ['Vue', 'JavaScript', 'TailwindCSS'],
+    mainUrl: 'https://vsem-sad.ru/',
+    type: 'commercial',
   },
   {
-    title: 'GYM Sports',
-    imageUrl: './img/portfolio/gymsports.jpg',
+    title: 'Vinyl Adventure Store',
+    imageUrl: './img/portfolio/vinyl-store.jpeg',
     description:
-      'In this project I created a convenient website for a fitness club, where you can find out all the information about training, schedule and payment terms.',
-    techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/No-colour-you-like/Gymsports',
-    mainUrl: 'https://no-colour-you-like.github.io/Gymsports/',
-    type: 'personal',
-  },
-  {
-    title: 'Launcher Inc.',
-    imageUrl: './img/portfolio/launcher-inc.jpg',
-    description:
-      'Project for Launcher Inc. , a rocket engine testing company. This multi-page site contains information about the company, its product and personnel.',
-    techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/No-colour-you-like/Launcher',
-    mainUrl: 'https://no-colour-you-like.github.io/Launcher',
-    type: 'personal',
-  },
-  {
-    title: 'Photographer Portfolio',
-    imageUrl: './img/portfolio/photographer.jpg',
-    description: 'An animated portfolio showcasing the different aspects of a professional photographer.',
-    techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/No-colour-you-like/Photographer',
-    mainUrl: 'https://no-colour-you-like.github.io/Photographer/',
-    type: 'personal',
-  },
-  {
-    title: 'Perfect Home',
-    imageUrl: './img/portfolio/perfect-home.jpg',
-    description: 'Single-page animated website providing information about the services of a rental company.',
-    techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/No-colour-you-like/Perfect-home',
-    mainUrl: 'https://no-colour-you-like.github.io/Perfect-home/',
+      "Experimental project employs the MERN stack, along with TypeScript and Styled Components, to showcase a store's range of products with filtering.",
+    techs: ['React', 'TypeScript'],
+    githubUrl: 'https://github.com/No-colour-you-like/Vinyl-Record-Online-Store',
+    mainUrl: 'https://vinyl-adventure.netlify.app/',
     type: 'personal',
   },
   {
@@ -136,30 +107,10 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Wallet Dashboard',
     imageUrl: './img/portfolio/wallet.jpg',
     description:
-      'This project helps to record expenses and income. Allows to add and remove transactions, track the type and date of expenses.',
+      'Wallet Dashboard helps to record expenses and income. Allows to add and remove transactions, track the type and date of expenses.',
     techs: ['JavaScript', 'Sass'],
     githubUrl: 'https://github.com/No-colour-you-like/Wallet',
     mainUrl: 'https://no-colour-you-like.github.io/Wallet/',
-    type: 'personal',
-  },
-  {
-    title: 'Movies Dashboard',
-    imageUrl: './img/portfolio/movies.jpg',
-    description:
-      'In this application I created a user-friendly navigation with popular movies lists. This app allows to filter films by genre and year, as well as sort them by main parameters.',
-    techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/No-colour-you-like/Movies',
-    mainUrl: 'https://no-colour-you-like.github.io/Movies/',
-    type: 'personal',
-  },
-  {
-    title: 'Cinema Dashboard',
-    imageUrl: './img/portfolio/cinema.jpg',
-    description:
-      'This app allows to purchase cinema tickets. It provides you with possibility to choose a movie, cinema, time and seat.',
-    techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/No-colour-you-like/Cinema',
-    mainUrl: 'https://no-colour-you-like.github.io/Cinema/',
     type: 'personal',
   },
 ]
@@ -168,15 +119,15 @@ export const resume = {
   hardSkills: [
     {
       title: 'Languages',
-      info: 'JavaScript, TypeScript, HTML, CSS/Sass',
+      info: 'JavaScript, TypeScript, HTML, CSS',
     },
     {
       title: 'Technologies',
-      info: 'React.js, Redux, Vue.js, Vuex, Webpack, TailwindCSS',
+      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js',
     },
     {
       title: 'Other',
-      info: 'NPM, Git, Docker, Responsive design, Performance optimization',
+      info: 'Sass, TailwindCSS, Styled Components, NPM, Git, Docker, Responsive design, Performance optimization',
     },
   ],
   education: [
@@ -255,10 +206,28 @@ export const techs = [
     shadow: '0 0 20px rgb(97, 218, 251)',
   },
   {
+    title: 'Redux',
+    iconUrl: './img/techs/redux.svg',
+    color: 'rgb(118, 74, 188)',
+    shadow: '0 0 20px rgb(118, 74, 188)',
+  },
+  {
     title: 'Vue',
     iconUrl: './img/techs/vue.svg',
     color: 'rgb(63, 184, 131)',
     shadow: '0 0 20px rgb(63, 184, 131)',
+  },
+  {
+    title: 'Pinia',
+    iconUrl: './img/techs/pinia.svg',
+    color: 'rgb(118, 225, 135)',
+    shadow: '0 0 20px rgb(118, 225, 135)',
+  },
+  {
+    title: 'Node.js',
+    iconUrl: './img/techs/node-js.svg',
+    color: 'rgb(103, 159, 99)',
+    shadow: '0 0 20px rgb(103, 159, 99)',
   },
   {
     title: 'HTML5',
@@ -289,24 +258,6 @@ export const techs = [
     iconUrl: './img/techs/git.svg',
     color: 'rgb(240, 60, 45)',
     shadow: '0 0 20px rgb(240, 60, 45)',
-  },
-  {
-    title: 'ES Lint',
-    iconUrl: './img/techs/eslint.svg',
-    color: 'rgb(74, 50, 195)',
-    shadow: '0 0 20px rgb(74, 50, 195)',
-  },
-  {
-    title: 'Prettier',
-    iconUrl: './img/techs/prettier.svg',
-    color: 'rgb(85, 179, 180)',
-    shadow: '0 0 20px rgb(85, 179, 180)',
-  },
-  {
-    title: 'Figma',
-    iconUrl: './img/techs/figma.svg',
-    color: 'rgb(161, 89, 255)',
-    shadow: '0 0 20px rgb(161, 89, 255)',
   },
 ]
 

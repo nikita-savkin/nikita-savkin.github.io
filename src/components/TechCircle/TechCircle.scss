@@ -1,5 +1,10 @@
+@import '../../assets/scss/vars';
+
 .tech-circle {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   img {
     position: relative;
@@ -9,15 +14,22 @@
   }
 
   .main {
+    position: relative;
     width: 60px;
     height: 60px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 0 0 auto;
     margin-bottom: 8px;
     background: #fff;
     box-shadow: 0 0 9px 1px #fff;
+
+    @media (max-width: $tablet) {
+      width: 50px;
+      height: 50px;
+    }
   }
 
   &__bg {
@@ -29,6 +41,11 @@
     z-index: 1;
     border-radius: 50%;
     opacity: 0.2;
+
+    @media (max-width: $tablet) {
+      width: 50px;
+      height: 50px;
+    }
   }
 
   .tech-title {
@@ -37,6 +54,10 @@
     font-size: 17px;
     color: #fff;
     font-weight: bold;
+
+    @media (max-width: $tablet) {
+      font-size: 15px;
+    }
   }
 
   &--small {

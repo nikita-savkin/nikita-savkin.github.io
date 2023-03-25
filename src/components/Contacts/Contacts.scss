@@ -1,24 +1,51 @@
 @import '../../assets/scss/vars';
 
 .contacts {
+  max-width: 100%;
+
   .info {
     font-family: 'Calibre-light', sans-serif;
     font-size: 23px;
     margin-bottom: 50px;
     color: rgba(255, 255, 255, 0.9);
+
+    @media (max-width: $tablet) {
+      font-size: 18px;
+    }
   }
 
   .content {
     display: flex;
+    justify-content: center;
 
     .form-wrapper {
       width: 50%;
+      margin-left: 10px;
       position: relative;
+
+      @media (max-width: $tablet) {
+        width: 100%;
+        margin-left: 0;
+
+        .drops {
+          display: none;
+        }
+      }
+
+      .form-container {
+        width: 100%;
+
+        form input,
+        form textarea {
+          width: 100%;
+        }
+      }
     }
   }
 
   .image {
     width: 50%;
+    margin-left: 20px;
 
     @media (max-width: $tablet) {
       display: none;
