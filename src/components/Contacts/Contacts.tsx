@@ -5,7 +5,8 @@ const Contacts = () => {
   return (
     <div className='contacts'>
       <div className='info'>
-        My inbox is always open. Whether you have a question or just want to say hi I'll try my best to get back to you!
+        Don't hesitate to reach out to me anytime, whether you have a question or just want to say hi - I'll do my best
+        to respond as soon as possible!
       </div>
       <div className='content'>
         <div className='form-wrapper'>

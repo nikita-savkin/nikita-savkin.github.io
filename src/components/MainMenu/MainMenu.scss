@@ -21,7 +21,7 @@
 
   &_center {
     @media (max-width: $laptop-small) {
-      padding-top: 200px;
+      margin-top: 200px;
     }
 
     @media (max-width: $tablet) {

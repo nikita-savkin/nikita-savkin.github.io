@@ -48,10 +48,19 @@ export const personalInfo: PersonalInfo = {
 
 export const ProjectExampleInfo: ProjectExample[] = [
   {
-    title: 'Happy Inc',
+    title: 'FeedbackX',
+    imageUrl: './img/portfolio/feedbackx.webp ',
+    description:
+      'An online platform is available for research and to increase employee engagement, assisting organizations in studying the satisfaction level and needs of their employees in real time.',
+    techs: ['Vue', 'TypeScript', 'Sass'],
+    mainUrl: 'https://happy-inc.ru/feedbackx/',
+    type: 'commercial',
+  },
+  {
+    title: 'Happy Job',
     imageUrl: './img/portfolio/hj.webp',
     description:
-      'Online platform for research and increase of employee engagement, that helps organizations to study the satisfaction level and needs of their employees in real time.',
+      'An online platform is available for research and to increase employee engagement, assisting organizations in studying the satisfaction level and needs of their employees in real time.',
     techs: ['React', 'Vue', 'TypeScript', 'Sass'],
     mainUrl: 'https://happy-job.ru/',
     type: 'commercial',
@@ -60,7 +69,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Keyauto',
     imageUrl: './img/portfolio/keyauto.webp',
     description:
-      'Online shop for car dealer "KeyAuto". In 2021 company took 108th place in the rating of the 200 largest private companies in Russia according to Forbes.',
+      'An online shop was created for KeyAuto, a car dealership. In 2021, Forbes ranked KeyAuto 108th among the 200 largest private companies in the country.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://keyauto.ru/',
     type: 'commercial',
@@ -69,7 +78,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Luidor',
     imageUrl: './img/portfolio/luidor.webp',
     description:
-      'An online store for a car dealer who occupies a strong position in the market for the purchase and sale of used cars.',
+      'This is an online store for a car dealer that holds a strong position in the market for buying and selling used cars.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://luidor-expert.ru/',
     type: 'commercial',
@@ -78,7 +87,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Vsem Sad',
     imageUrl: './img/portfolio/plants.webp',
     description:
-      'E-commerce plants store is online shop that offer a variety of plants with convenient shopping, shipping options, and plant care advices.',
+      'This is an e-commerce online shop that specializes in selling plants, offering a diverse selection and convenient shopping and shipping options, as well as helpful plant care advice.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://vsem-sad.ru/',
     type: 'commercial',
@@ -87,7 +96,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Vinyl Adventure Store',
     imageUrl: './img/portfolio/vinyl-store.webp',
     description:
-      "Experimental project employs the MERN stack, along with TypeScript and Styled Components, to showcase a store's range of products with filtering.",
+      "This experimental project utilizes the MERN stack, as well as TypeScript and Styled Components, to display a store's product range with filtering capabilities.",
     techs: ['React', 'TypeScript'],
     githubUrl: 'https://github.com/No-colour-you-like/Vinyl-Record-Online-Store',
     mainUrl: 'https://vinyl-adventure.netlify.app/',
@@ -97,7 +106,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Crypto Dashboard',
     imageUrl: './img/portfolio/crypto.webp',
     description:
-      'This application allows to track three types of cryptocurrencies in real time. It is also possible to use a currency converter and track the dynamics of the cryptocurrency.',
+      'This application enables users to track three types of cryptocurrencies in real-time, as well as use a currency converter and monitor the dynamics of each cryptocurrency.',
     techs: ['JavaScript', 'Sass'],
     githubUrl: 'https://github.com/No-colour-you-like/Crypto',
     mainUrl: 'https://no-colour-you-like.github.io/Crypto/',
@@ -107,7 +116,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Wallet Dashboard',
     imageUrl: './img/portfolio/wallet.webp',
     description:
-      'Wallet Dashboard helps to record expenses and income. Allows to add and remove transactions, track the type and date of expenses.',
+      'The Wallet Dashboard assists in recording expenses and income, allowing users to add and remove transactions and track the type and date of each expense.',
     techs: ['JavaScript', 'Sass'],
     githubUrl: 'https://github.com/No-colour-you-like/Wallet',
     mainUrl: 'https://no-colour-you-like.github.io/Wallet/',
@@ -123,23 +132,28 @@ export const resume = {
     },
     {
       title: 'Technologies',
-      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js',
+      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js, Sass, TailwindCSS, Styled-components, Git, NPM, Docker',
     },
     {
       title: 'Other',
-      info: 'Sass, TailwindCSS, Styled Components, NPM, Git, Docker, Responsive design, Performance optimization',
+      info: 'Responsive design, Performance optimization, Authentication and authorization',
     },
   ],
   education: [
     {
       title: 'React - The Complete Guide Course',
       source: 'Maximilian Schwarzmüller',
-      year: '2020',
+      year: '2019',
+    },
+    {
+      title: 'Data Structures and Algorithms',
+      source: 'Zero to Mastery',
+      year: '2019',
     },
     {
       title: 'The Complete JavaScript Course',
       source: 'Jonas Schmedtmann',
-      year: '2019',
+      year: '2018',
     },
     {
       title: 'Bachelor of Management',
@@ -154,33 +168,31 @@ export const resume = {
       gap: 'April 2022 - Present',
       mainDuty: 'Worked with applications in a single powerful online survey platform using React and Vue.',
       otherDuties: [
-        "Architected 2 new personal reports for the company's clients, developed and redesigned platform components for compatibility with previous reports",
-        'Engineered and maintained new major features for online survey application',
-        'Developed new functions for the admin panel in order to flexibly configure the online survey application and the report panel',
-        'Interacted productively with the designer, manager and backend developers to improve the quality of the whole system and create the most user friendly interface',
+        "Developed 3 reports for 'FeedbackX' platform to display research data in a dynamic format",
+        "Architected 2 new personal reports for 'Happy Job' platform, boosting clients ability to analyze and understand survey data",
+        'Developed/redesigned platform components, resulting in a 12% decrease in user complaints and improved UX',
+        'Engineered/maintained major features, including cutting-edge data visualization tools that increased data interpretation efficiency by 17%',
       ],
     },
     {
       title: 'Front-end Developer | Autodrive Agency',
       gap: 'March 2021 - April 2022',
-      mainDuty: 'Developed e-commerce projects for car dealers and other businesses as a frontend engineer.',
+      mainDuty: 'Developed e-commerce projects for car dealers and other businesses as a frontend web developer.',
       otherDuties: [
-        'Developed 3 high-quality online stores from scratch using Vue 3, VueX, Vue Router, TailwindCSS with support for mobile and desktop versions of applications',
-        'Implemented admin panels for online stores',
-        'Investigated, evaluated and debugged application issues across time',
-        'Improved the productivity and availability of projects using Google Lighthouse on 15%',
-        'Introduced and enforced a consistent coding style across the applications using ESLint and Prettier',
-        'Eliminated dead code thereby making it more readable for all team',
+        'Built 3 high-quality online stores from scratch using Vue, VueX, Vue Router, and TailwindCSS with mobile and desktop versions',
+        'Implemented admin panels for managing products, orders, and other site content',
+        'Increased project productivity and availability by 15% using Google Lighthouse',
+        'Eliminated dead code in previous projects and introduced consistent coding style using ESLint and Prettier',
       ],
     },
     {
       title: 'Freelance Web Developer',
       gap: 'September 2019 - March 2021',
-      mainDuty: "Developed and maintained code for clients' websites primarily using HTML, CSS (Sass) and JavaScript.",
+      mainDuty: 'Developed and maintained websites for clients using primarily HTML, CSS (Sass), and JavaScript.',
       otherDuties: [
-        'Implemented a "mobile-first" approach to creating new projects which increased the development speed by 20%',
-        'Manually tested sites in various browsers and mobile devices to ensure cross-browser compatibility and responsiveness',
-        'Wrote modern, performant, and robust code for a diverse array of client',
+        'Implemented a "mobile-first" approach to new projects, resulting in a 20% increase in development speed',
+        'Manually tested sites for cross-browser compatibility and responsiveness',
+        'Adopted modern coding standards and utilized ES6 syntax to write performant and robust code for a diverse range of web projects.',
       ],
     },
   ],
@@ -263,8 +275,9 @@ export const techs = [
 
 export const aboutMe = {
   textBlocks: [
-    "Hi! I specialise in creating unique web applications. I strive to create visually compelling, user-friendly applications with high-quality and well-designed code. I'm well-organized person, problem solver and responsible coder.",
-    'I always care about what I create, keep learning new things and challenge myself. I enjoy gaining experience in the field of web development and discovering something new for myself.',
+    'Hi there! As a frontend developer, I specialize in creating intuitive, responsive interfaces that are both aesthetically pleasing and functional. I have a keen eye for design and a deep understanding of user experience.',
+    'With my expertise in frontend technologies, I can bring vision to life in a way that engages and delights users. I also strive to create scalable and maintainable code that can easily be extended and adapted to meet future needs. ',
+    "Let's work together to create a stunning frontend that makes your application stand out from the crowd!",
   ],
   techsTitle: "Here are a few technologies I've been working with:",
 }
