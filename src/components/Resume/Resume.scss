@@ -18,7 +18,7 @@
   }
 
   &__skills {
-    min-width: 230px;
+    flex-basis: 36%;
     border-right: 1px solid rgba(#fff, 0.2);
     padding-right: 12px;
 
@@ -28,9 +28,11 @@
   }
 
   &__exp {
+    flex-basis: 64%;
     padding-left: 24px;
 
     @media (max-width: $tablet) {
+      flex-basis: auto;
       padding-left: 0;
     }
   }
