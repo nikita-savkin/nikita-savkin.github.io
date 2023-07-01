@@ -49,7 +49,7 @@ export const personalInfo: PersonalInfo = {
 export const ProjectExampleInfo: ProjectExample[] = [
   {
     title: 'FeedbackX',
-    imageUrl: './img/portfolio/feedbackx.webp ',
+    imageUrl: './img/portfolio/feedback.webp ',
     description:
       'The online platform for multi-role assessment, employee skills development and career track building.',
     techs: ['Vue', 'TypeScript', 'Sass'],
