@@ -9,7 +9,7 @@ const InfoBlock = () => {
         <h1 className="name-title">
           {personalInfo.name}
           <br />
-          <span>{personalInfo.surname}.</span>
+          <span>{personalInfo.surname}</span>
         </h1>
         <p className="prof__title">{personalInfo.profession}</p>
         <div className="links">

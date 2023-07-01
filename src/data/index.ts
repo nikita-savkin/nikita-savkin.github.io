@@ -51,7 +51,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'FeedbackX',
     imageUrl: './img/portfolio/feedbackx.webp ',
     description:
-      'An online platform is available for research and to increase employee engagement, assisting organizations in studying the satisfaction level and needs of their employees in real time.',
+      'The online platform for multi-role assessment, employee skills development and career track building.',
     techs: ['Vue', 'TypeScript', 'Sass'],
     mainUrl: 'https://happy-inc.ru/feedbackx/',
     type: 'commercial',
@@ -60,16 +60,16 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Happy Job',
     imageUrl: './img/portfolio/hj.webp',
     description:
-      'An online platform is available for research and to increase employee engagement, assisting organizations in studying the satisfaction level and needs of their employees in real time.',
+      'The online platform for research and increasing employee engagement, assisting organizations in studying the satisfaction levels and needs of their employees in real-time.',
     techs: ['React', 'Vue', 'TypeScript', 'Sass'],
     mainUrl: 'https://happy-job.ru/',
     type: 'commercial',
   },
   {
-    title: 'Keyauto',
+    title: 'KeyAuto',
     imageUrl: './img/portfolio/keyauto.webp',
     description:
-      'An online shop was created for KeyAuto, a car dealership. In 2021, Forbes ranked KeyAuto 108th among the 200 largest private companies in the country.',
+      'The online shop was created for KeyAuto, a car dealership. In 2021, Forbes ranked KeyAuto 108th among the 200 largest private companies in the country.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://keyauto.ru/',
     type: 'commercial',
@@ -78,16 +78,16 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Luidor',
     imageUrl: './img/portfolio/luidor.webp',
     description:
-      'This is an online store for a car dealer that holds a strong position in the market for buying and selling used cars.',
+      'The online store for a car dealer that holds a strong position in the market for buying and selling used cars.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://luidor-expert.ru/',
     type: 'commercial',
   },
   {
-    title: 'Vsem Sad',
+    title: 'Garden for everyone',
     imageUrl: './img/portfolio/plants.webp',
     description:
-      'This is an e-commerce online shop that specializes in selling plants, offering a diverse selection and convenient shopping and shipping options, as well as helpful plant care advice.',
+      'The e-commerce online shop that specializes in selling plants, offering a diverse selection and convenient shopping and shipping options, as well as helpful plant care advice.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://vsem-sad.ru/',
     type: 'commercial',
@@ -96,7 +96,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     title: 'Vinyl Adventure Store',
     imageUrl: './img/portfolio/vinyl-store.webp',
     description:
-      "This experimental project utilizes the MERN stack, as well as TypeScript and Styled Components, to display a store's product range with filtering capabilities.",
+      "The MERN stack, along with TypeScript and Styled Components, is employed in this experimental project to showcase a store's array of products while offering filtering functionalities.",
     techs: ['React', 'TypeScript'],
     githubUrl: 'https://github.com/No-colour-you-like/Vinyl-Record-Online-Store',
     mainUrl: 'https://vinyl-adventure.netlify.app/',
@@ -132,11 +132,11 @@ export const resume = {
     },
     {
       title: 'Technologies',
-      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js, Sass, TailwindCSS, Styled-components, Git, NPM, Docker',
+      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js, Sass, TailwindCSS, Styled-components, Git, Docker, Chrome DevTools, npm',
     },
     {
       title: 'Other',
-      info: 'Responsive design, Performance optimization, Authentication and authorization',
+      info: 'Responsive Web Design, Authentication and Authorization, Web Performance Optimization, Cross-browser Compatibility, Architectural Patterns',
     },
   ],
   education: [
@@ -146,8 +146,8 @@ export const resume = {
       year: '2019',
     },
     {
-      title: 'Data Structures and Algorithms',
-      source: 'Zero to Mastery',
+      title: 'Algorithms and Data Structures Masterclass',
+      source: 'Colt Steele',
       year: '2019',
     },
     {
@@ -161,28 +161,29 @@ export const resume = {
       year: '2016',
     },
   ],
-  softSkills: ['Critical thinking', 'Adaptability and flexibility', 'Teamwork', 'Problem Solving'],
+  softSkills: ['Problem Solving', 'Teamwork', 'Adaptability and flexibility', 'Critical thinking'],
   experience: [
     {
-      title: 'Front-end Developer | Happy Inc',
-      gap: 'April 2022 - Present',
-      mainDuty: 'Worked with applications in a single powerful online survey platform using React and Vue.',
+      title: 'Frontend Developer | Happy Inc',
+      gap: 'June 2022 - Present',
+      mainDuty: 'Developed applications within a powerful online survey platform using React and Vue, contributing to the platform\'s functionality and success.',
       otherDuties: [
-        "Developed 3 reports for 'FeedbackX' platform to display research data in a dynamic format",
-        "Architected 2 new personal reports for 'Happy Job' platform, boosting clients ability to analyze and understand survey data",
-        'Developed/redesigned platform components, resulting in a 12% decrease in user complaints and improved UX',
-        'Engineered/maintained major features, including cutting-edge data visualization tools that increased data interpretation efficiency by 17%',
+        "Assembled and programmed 3 reports for the 'FeedbackX' platform to display research data in a dynamic format, resulting in a significant 10% increase in the client base",
+        "Constructed and designed 2 new personal reports for the 'Happy Job' platform, boosting clients' ability to analyze survey data and resulting in a 8% increase in company income",
+        'Developed/redesigned platform components, resulting in a decrease in user complaints and improved UX',
+        'Engineered and maintained major features, including cutting-edge data visualization tools that increased data interpretation efficiency by 17%',
       ],
     },
     {
-      title: 'Front-end Developer | Autodrive Agency',
-      gap: 'March 2021 - April 2022',
+      title: 'Frontend Developer | Autodrive Agency',
+      gap: 'March 2021 - June 2022',
       mainDuty: 'Developed e-commerce projects for car dealers and other businesses as a frontend web developer.',
       otherDuties: [
-        'Built 3 high-quality online stores from scratch using Vue, VueX, Vue Router, and TailwindCSS with mobile and desktop versions',
-        'Implemented admin panels for managing products, orders, and other site content',
-        'Increased project productivity and availability by 15% using Google Lighthouse',
-        'Eliminated dead code in previous projects and introduced consistent coding style using ESLint and Prettier',
+        'Constructed 3 high-quality e-commerce stores from scratch with mobile and desktop versions, resulting in a significant 14% increase in company income',
+        'Engineered 3 admin panels for managing products, orders, and other site content',
+        'Upgraded projects productivity and availability by 17% using Google Lighthouse',
+        'Successfully removed dead code in 2 legacy projects, resulting in a significant reduction of file size by 5-8%',
+        'Implemented ESLint and Prettier tools across projects, resulting in increased development efficiency'
       ],
     },
     {
@@ -192,7 +193,7 @@ export const resume = {
       otherDuties: [
         'Implemented a "mobile-first" approach to new projects, resulting in a 20% increase in development speed',
         'Manually tested sites for cross-browser compatibility and responsiveness',
-        'Adopted modern coding standards and utilized ES6 syntax to write performant and robust code for a diverse range of web projects.',
+        'Adopted modern coding standards and utilized ES6 syntax to write performant and robust code for a diverse range of web projects',
       ],
     },
   ],
@@ -275,9 +276,9 @@ export const techs = [
 
 export const aboutMe = {
   textBlocks: [
-    'Hi there! As a frontend developer, I specialize in creating intuitive, responsive interfaces that are both aesthetically pleasing and functional. I have a keen eye for design and a deep understanding of user experience.',
-    'With my expertise in frontend technologies, I can bring vision to life in a way that engages and delights users. I also strive to create scalable and maintainable code that can easily be extended and adapted to meet future needs. ',
-    "Let's work together to create a stunning frontend that makes your application stand out from the crowd!",
+    'Experienced frontend developer with 4 years of cross-industry expertise in technology and retail sectors.',
+    'Proficient in JavaScript, TypeScript, and modern frameworks like Vue and React, with a focus on responsive design, cross-browser compatibility, and performance optimization.',
+    'Strong problem-solving abilities and attention to detail. Continuously learning and staying up-to-date with industry trends.'
   ],
   techsTitle: "Here are a few technologies I've been working with:",
 }
