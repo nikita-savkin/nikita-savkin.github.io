@@ -132,11 +132,11 @@ export const resume = {
     },
     {
       title: 'Technologies',
-      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js, Sass, TailwindCSS, Styled-components, Git, Docker, Chrome DevTools, npm',
+      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js, Sass, TailwindCSS, Styled-components, Git, Chrome DevTools, npm, Docker',
     },
     {
       title: 'Other',
-      info: 'Responsive Web Design, Authentication and Authorization, Web Performance Optimization, Cross-browser Compatibility, Architectural Patterns',
+      info: 'Responsive web design, authentication and authorization, web performance optimization, cross-browser compatibility, architectural patterns, CI/CD',
     },
   ],
   education: [

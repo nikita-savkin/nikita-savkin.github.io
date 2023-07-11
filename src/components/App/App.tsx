@@ -26,11 +26,11 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setHideTypewriper(true)
-    }, 5500)
+    }, 4500)
     setTimeout(() => {
       setHideTypewriper(true)
       setIsShowedPageLoader(false)
-    }, 6500)
+    }, 5500)
   }, [])
 
   const toggleInfoMenu = (id: string | null) => {
@@ -105,7 +105,7 @@ const App = () => {
               autoStart: true,
               loop: false,
               deleteSpeed: 1,
-              delay: 90,
+              delay: 65,
             }}
           />
         </div>
