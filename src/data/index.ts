@@ -132,11 +132,11 @@ export const resume = {
     },
     {
       title: 'Technologies',
-      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js, Sass, TailwindCSS, Styled-components, Git, Chrome DevTools, npm, Docker',
+      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js, Sass, TailwindCSS, version control/Git, browser developer tools, NPM, Docker',
     },
     {
       title: 'Other',
-      info: 'Responsive web design, authentication and authorization, web performance optimization, cross-browser compatibility, architectural patterns, CI/CD',
+      info: 'Cross-browser compatibility, responsive design, mobile design, web performance optimization, search engine optimization (SEO), testing/debugging, browser developer tools, RESTful services/APIs, web accessibility, CI/CD',
     },
   ],
   education: [
@@ -161,39 +161,38 @@ export const resume = {
       year: '2016',
     },
   ],
-  softSkills: ['Problem Solving', 'Teamwork', 'Adaptability and flexibility', 'Critical thinking'],
+  softSkills: ['Teamwork and communication', 'Adaptability and flexibility', 'Time management', 'Problem solving'],
   experience: [
     {
       title: 'Frontend Developer | Happy Inc',
       gap: 'June 2022 - Present',
-      mainDuty: 'Developed applications within a powerful online survey platform using React and Vue, contributing to the platform\'s functionality and success.',
+      mainDuty: 'Worked with applications in a powerful online survey platform',
       otherDuties: [
-        "Assembled and programmed 3 reports for the 'FeedbackX' platform to display research data in a dynamic format, resulting in a significant 10% increase in the client base",
-        "Constructed and designed 2 new personal reports for the 'Happy Job' platform, boosting clients' ability to analyze survey data and resulting in a 8% increase in company income",
-        'Developed/redesigned platform components, resulting in a decrease in user complaints and improved UX',
-        'Engineered and maintained major features, including cutting-edge data visualization tools that increased data interpretation efficiency by 17%',
+        'Developed 2 reports for the \'Happy Job\' platform, presenting research data in a new, dynamic format, boosting the company\'s income by 14%',
+        'Architected 4 reports from scratch for the \'FeedbackX\' platform, enhancing clients\' ability to analyze new survey data by 20%',
+        'Advanced and redesigned platform components, improving the UX/UI, which led to a 12% decrease in user complaints',
+        'Engineered and maintained new features, including cutting-edge data visualization tools that increased data interpretation efﬁciency by 17%'
       ],
     },
     {
       title: 'Frontend Developer | Autodrive Agency',
       gap: 'March 2021 - June 2022',
-      mainDuty: 'Developed e-commerce projects for car dealers and other businesses as a frontend web developer.',
+      mainDuty: 'Developed e-commerce projects for car dealers and various businesses',
       otherDuties: [
-        'Constructed 3 high-quality e-commerce stores from scratch with mobile and desktop versions, resulting in a significant 14% increase in company income',
-        'Engineered 3 admin panels for managing products, orders, and other site content',
-        'Upgraded projects productivity and availability by 17% using Google Lighthouse',
-        'Successfully removed dead code in 2 legacy projects, resulting in a significant reduction of file size by 5-8%',
-        'Implemented ESLint and Prettier tools across projects, resulting in increased development efficiency'
+        'Built 3 high-quality online stores from scratch, each with mobile and desktop versions, and developed admin panels for them ',
+        'Employed SEO best practices to enhance the speed and scalability of web apps, resulting in a 10-23% improvement in performance',
+        'Refactored code in past projects and implemented ESLint and Prettier, resulting in 7-15% decrease in project build size',
+        'Increased project productivity and availability by 10-15% using Google Lighthouse'
       ],
     },
     {
       title: 'Freelance Web Developer',
       gap: 'September 2019 - March 2021',
-      mainDuty: 'Developed and maintained websites for clients using primarily HTML, CSS (Sass), and JavaScript.',
+      mainDuty: 'Developed and maintained websites for various businesses',
       otherDuties: [
-        'Implemented a "mobile-first" approach to new projects, resulting in a 20% increase in development speed',
-        'Manually tested sites for cross-browser compatibility and responsiveness',
+        'Implemented a "mobile-ﬁrst" approach to new projects, resulting in a 18% increase in development speed',
         'Adopted modern coding standards and utilized ES6 syntax to write performant and robust code for a diverse range of web projects',
+        'Manually tested sites for cross-browser compatibility and responsiveness'
       ],
     },
   ],
@@ -276,7 +275,7 @@ export const techs = [
 
 export const aboutMe = {
   textBlocks: [
-    'Experienced frontend developer with 4 years of cross-industry expertise in technology and retail sectors.',
+    'Experienced frontend developer with 4+ years of cross-industry expertise in technology and retail sectors.',
     'Proficient in JavaScript, TypeScript, and modern frameworks like Vue and React, with a focus on responsive design, cross-browser compatibility, and performance optimization.',
     'Strong problem-solving abilities and attention to detail. Continuously learning and staying up-to-date with industry trends.'
   ],
