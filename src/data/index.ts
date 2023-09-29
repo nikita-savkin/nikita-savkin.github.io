@@ -26,7 +26,7 @@ export const middleBlocksTitles: Title[] = [
 export const personalInfo: PersonalInfo = {
   name: 'Nikita',
   surname: 'Savkin',
-  profession: 'Frontend Developer',
+  profession: 'Front-end Developer',
   links: [
     {
       id: 'email',
@@ -40,7 +40,7 @@ export const personalInfo: PersonalInfo = {
     },
     {
       id: 'github',
-      url: 'https://github.com/no-colour-you-like',
+      url: 'https://github.com/nikita-savkin',
       icon: './img/icons/github.svg',
     },
   ],
@@ -98,7 +98,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
     description:
       "The MERN stack, along with TypeScript and Styled Components, is employed in this experimental project to showcase a store's array of products while offering filtering functionalities.",
     techs: ['React', 'TypeScript'],
-    githubUrl: 'https://github.com/No-colour-you-like/Vinyl-Record-Online-Store',
+    githubUrl: 'https://github.com/nikita-savkin/Vinyl-Record-Online-Store',
     mainUrl: 'https://vinyl-adventure.netlify.app/',
     type: 'personal',
   },
@@ -108,8 +108,8 @@ export const ProjectExampleInfo: ProjectExample[] = [
     description:
       'This application enables users to track three types of cryptocurrencies in real-time, as well as use a currency converter and monitor the dynamics of each cryptocurrency.',
     techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/No-colour-you-like/Crypto',
-    mainUrl: 'https://no-colour-you-like.github.io/Crypto/',
+    githubUrl: 'https://github.com/nikita-savkin/Crypto',
+    mainUrl: 'https://nikita-savkin.github.io/Crypto/',
     type: 'personal',
   },
   {
@@ -118,8 +118,8 @@ export const ProjectExampleInfo: ProjectExample[] = [
     description:
       'The Wallet Dashboard assists in recording expenses and income, allowing users to add and remove transactions and track the type and date of each expense.',
     techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/No-colour-you-like/Wallet',
-    mainUrl: 'https://no-colour-you-like.github.io/Wallet/',
+    githubUrl: 'https://github.com/nikita-savkin/Wallet',
+    mainUrl: 'https://nikita-savkin.github.io/Wallet/',
     type: 'personal',
   },
 ]
@@ -132,7 +132,7 @@ export const resume = {
     },
     {
       title: 'Technologies',
-      info: 'React, Redux, Vue, Vuex, Pinia, Webpack, Vite, Node.js, Sass, TailwindCSS, version control/Git, browser developer tools, NPM, Docker',
+      info: 'React, Redux, React Router, Vue, Vuex, Vue Router, Pinia, Webpack, Vite, Node.js, Chart.js, Sass, Tailwind, Version Control/Git, NPM, Docker',
     },
     {
       title: 'Other',
@@ -164,35 +164,35 @@ export const resume = {
   softSkills: ['Teamwork and communication', 'Adaptability and flexibility', 'Time management', 'Problem solving'],
   experience: [
     {
-      title: 'Frontend Developer | Happy Inc',
+      title: 'Senior Front-end Developer | Happy Inc',
       gap: 'June 2022 - Present',
-      mainDuty: 'Worked with applications in a powerful online survey platform',
+      mainDuty: 'Designed innovative reports for applications on the online survey platform.',
       otherDuties: [
-        'Developed 2 reports for the \'Happy Job\' platform, presenting research data in a new, dynamic format, boosting the company\'s income by 14%',
-        'Architected 4 reports from scratch for the \'FeedbackX\' platform, enhancing clients\' ability to analyze new survey data by 20%',
-        'Advanced and redesigned platform components, improving the UX/UI, which led to a 12% decrease in user complaints',
-        'Engineered and maintained new features, including cutting-edge data visualization tools that increased data interpretation efﬁciency by 17%'
+        'Developed 2 reports for the \'Happy Job\' app, presenting research data in a new, dynamic format, boosting the company\'s income by 14%.',
+        'Architected 4 reports for the \'FeedbackX\' app, boosting clients\' survey data analysis by 20%.',
+        'Advanced and redesigned platform components, improving the UX/UI, which led to a 12% decrease in user complaints.',
+        'Engineered and maintained new features, including advanced data visualization tools that increased data interpretation efficiency by 17%.'
       ],
     },
     {
-      title: 'Frontend Developer | Autodrive Agency',
+      title: 'Front-end Developer | Autodrive Agency',
       gap: 'March 2021 - June 2022',
-      mainDuty: 'Developed e-commerce projects for car dealers and various businesses',
+      mainDuty: 'Developed and enhanced e-commerce apps for car dealers and diverse clients.',
       otherDuties: [
-        'Built 3 high-quality online stores from scratch, each with mobile and desktop versions, and developed admin panels for them ',
-        'Employed SEO best practices to enhance the speed and scalability of web apps, resulting in a 10-23% improvement in performance',
-        'Refactored code in past projects and implemented ESLint and Prettier, resulting in 7-15% decrease in project build size',
-        'Increased project productivity and availability by 10-15% using Google Lighthouse'
+        'Built 3 online stores from scratch, each with mobile and desktop versions, and developed admin panels for them.',
+        'Employed SEO best practices to enhance the speed and scalability of web apps, resulting in a 10-23% improvement in performance.',
+        'Refactored code in past projects implementing ESLint/Prettier, resulting in 7-15% decrease in project build size.',
+        'Increased the productivity and availability of multiple projects by 10-15% using Google Lighthouse.'
       ],
     },
     {
       title: 'Freelance Web Developer',
       gap: 'September 2019 - March 2021',
-      mainDuty: 'Developed and maintained websites for various businesses',
+      mainDuty: 'Developed and maintained websites for various businesses.',
       otherDuties: [
-        'Implemented a "mobile-ﬁrst" approach to new projects, resulting in a 18% increase in development speed',
-        'Adopted modern coding standards and utilized ES6 syntax to write performant and robust code for a diverse range of web projects',
-        'Manually tested sites for cross-browser compatibility and responsiveness'
+        'Implemented a "mobile-ﬁrst" approach to new projects, resulting in a 18% increase in development speed.',
+        'Applied modern coding standards and ES6 syntax to create efficient, robust code for various web projects.',
+        'Tested and debugged sites for cross-browser compatibility and responsiveness.'
       ],
     },
   ],
@@ -275,9 +275,9 @@ export const techs = [
 
 export const aboutMe = {
   textBlocks: [
-    'Experienced frontend developer with 4+ years of cross-industry expertise in technology and retail sectors.',
-    'Proficient in JavaScript, TypeScript, and modern frameworks like Vue and React, with a focus on responsive design, cross-browser compatibility, and performance optimization.',
-    'Strong problem-solving abilities and attention to detail. Continuously learning and staying up-to-date with industry trends.'
+    'Front-end developer with 5+ years of experience in creating interactive web applications and enhancing user interfaces.',
+    'Committed to using the latest technologies to drive company growth, improve user satisfaction, and increase product efficiency. Proficient in HTML, CSS, JavaScript, TypeScript, and modern frameworks like React and Vue.',
+    'Dedicated to delivering results, whether it\'s optimizing performance or building applications from scratch.'
   ],
   techsTitle: "Here are a few technologies I've been working with:",
 }
