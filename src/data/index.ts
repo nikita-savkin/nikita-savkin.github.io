@@ -54,16 +54,25 @@ export const ProjectExampleInfo: ProjectExample[] = [
       'The online platform for multi-role assessment, employee skills development and career track building.',
     techs: ['Vue', 'TypeScript', 'Sass'],
     mainUrl: 'https://happy-inc.ru/feedbackx/',
-    type: 'commercial',
+    type: 'platform',
   },
   {
     title: 'Happy Job',
     imageUrl: './img/portfolio/hj.webp',
     description:
-      'The online platform for research and increasing employee engagement, assisting organizations in studying the satisfaction levels and needs of their employees in real-time.',
+      'Complex application for research and increasing employee engagement, assisting organizations in studying the satisfaction levels and needs of their employees in real-time.',
     techs: ['React', 'Vue', 'TypeScript', 'Sass'],
     mainUrl: 'https://happy-job.ru/',
-    type: 'commercial',
+    type: 'platform',
+  },
+  {
+    title: 'Happy Job Int\'l',
+    imageUrl: './img/portfolio/hj-international.webp',
+    description:
+      'The online platform for conducting employee engagement research of any frequency and format based on any methodology.',
+    techs: ['React', 'Vue', 'TypeScript', 'Sass'],
+    mainUrl: 'https://happy-job.ru/international/',
+    type: 'platform',
   },
   {
     title: 'KeyAuto',
@@ -72,7 +81,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
       'The online shop was created for KeyAuto, a car dealership. In 2021, Forbes ranked KeyAuto 108th among the 200 largest private companies in the country.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://keyauto.ru/',
-    type: 'commercial',
+    type: 'e-commerce',
   },
   {
     title: 'Luidor',
@@ -81,7 +90,7 @@ export const ProjectExampleInfo: ProjectExample[] = [
       'The online store for a car dealer that holds a strong position in the market for buying and selling used cars.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://luidor-expert.ru/',
-    type: 'commercial',
+    type: 'e-commerce',
   },
   {
     title: 'Garden for everyone',
@@ -90,38 +99,38 @@ export const ProjectExampleInfo: ProjectExample[] = [
       'The e-commerce online shop that specializes in selling plants, offering a diverse selection and convenient shopping and shipping options, as well as helpful plant care advice.',
     techs: ['Vue', 'JavaScript', 'TailwindCSS'],
     mainUrl: 'https://vsem-sad.ru/',
-    type: 'commercial',
+    type: 'e-commerce',
   },
-  {
-    title: 'Vinyl Adventure Store',
-    imageUrl: './img/portfolio/vinyl-store.webp',
-    description:
-      "The MERN stack, along with TypeScript and Styled Components, is employed in this experimental project to showcase a store's array of products while offering filtering functionalities.",
-    techs: ['React', 'TypeScript'],
-    githubUrl: 'https://github.com/nikita-savkin/Vinyl-Record-Online-Store',
-    mainUrl: 'https://vinyl-adventure.netlify.app/',
-    type: 'personal',
-  },
-  {
-    title: 'Crypto Dashboard',
-    imageUrl: './img/portfolio/crypto.webp',
-    description:
-      'This application enables users to track three types of cryptocurrencies in real-time, as well as use a currency converter and monitor the dynamics of each cryptocurrency.',
-    techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/nikita-savkin/Crypto',
-    mainUrl: 'https://nikita-savkin.github.io/Crypto/',
-    type: 'personal',
-  },
-  {
-    title: 'Wallet Dashboard',
-    imageUrl: './img/portfolio/wallet.webp',
-    description:
-      'The Wallet Dashboard assists in recording expenses and income, allowing users to add and remove transactions and track the type and date of each expense.',
-    techs: ['JavaScript', 'Sass'],
-    githubUrl: 'https://github.com/nikita-savkin/Wallet',
-    mainUrl: 'https://nikita-savkin.github.io/Wallet/',
-    type: 'personal',
-  },
+  // {
+  //   title: 'Vinyl Adventure Store',
+  //   imageUrl: './img/portfolio/vinyl-store.webp',
+  //   description:
+  //     "The MERN stack, along with TypeScript and Styled Components, is employed in this experimental project to showcase a store's array of products while offering filtering functionalities.",
+  //   techs: ['React', 'TypeScript'],
+  //   githubUrl: 'https://github.com/nikita-savkin/Vinyl-Record-Online-Store',
+  //   mainUrl: 'https://vinyl-adventure.netlify.app/',
+  //   type: 'personal',
+  // },
+  // {
+  //   title: 'Crypto Dashboard',
+  //   imageUrl: './img/portfolio/crypto.webp',
+  //   description:
+  //     'This application enables users to track three types of cryptocurrencies in real-time, as well as use a currency converter and monitor the dynamics of each cryptocurrency.',
+  //   techs: ['JavaScript', 'Sass'],
+  //   githubUrl: 'https://github.com/nikita-savkin/Crypto',
+  //   mainUrl: 'https://nikita-savkin.github.io/Crypto/',
+  //   type: 'personal',
+  // },
+  // {
+  //   title: 'Wallet Dashboard',
+  //   imageUrl: './img/portfolio/wallet.webp',
+  //   description:
+  //     'The Wallet Dashboard assists in recording expenses and income, allowing users to add and remove transactions and track the type and date of each expense.',
+  //   techs: ['JavaScript', 'Sass'],
+  //   githubUrl: 'https://github.com/nikita-savkin/Wallet',
+  //   mainUrl: 'https://nikita-savkin.github.io/Wallet/',
+  //   type: 'personal',
+  // },
 ]
 
 export const resume = {

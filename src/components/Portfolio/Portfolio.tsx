@@ -7,16 +7,16 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group'
 const Portfolio = ({ portfolioUpdated }: { portfolioUpdated: CallableFunction }) => {
   const [buttonActive, setButtonActive] = useState<string>('All')
   const [projects, setProjects] = useState(ProjectExampleInfo)
-  const filterBtns = ['All', 'Commercial', 'My Lab']
+  const filterBtns = ['All', 'Platforms', 'E-commerce']
 
   const selectFilter = (btn: string) => {
     if (buttonActive !== btn) {
       const filteredProjects = ProjectExampleInfo.filter((project) => {
         switch (btn) {
-          case 'My Lab':
-            return project.type === 'personal'
-          case 'Commercial':
-            return project.type === 'commercial'
+          case 'Platforms':
+            return project.type === 'platform'
+          case 'E-commerce':
+            return project.type === 'e-commerce'
           default:
             return project
         }
@@ -47,7 +47,7 @@ const Portfolio = ({ portfolioUpdated }: { portfolioUpdated: CallableFunction })
           )
         })}
       </div>
-      <TransitionGroup>
+      <TransitionGroup className='portfolio__content'>
         {projects.map((example, idx) => {
           return (
             <CSSTransition timeout={500} classNames='fade' key={example.title}>
