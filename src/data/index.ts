@@ -26,7 +26,7 @@ export const middleBlocksTitles: Title[] = [
 export const personalInfo: PersonalInfo = {
   name: 'Nikita',
   surname: 'Savkin',
-  profession: 'Front-end Developer',
+  profession: 'Frontend Developer',
   links: [
     {
       id: 'email',
@@ -173,7 +173,7 @@ export const resume = {
   softSkills: ['Teamwork and communication', 'Adaptability and flexibility', 'Time management', 'Problem solving'],
   experience: [
     {
-      title: 'Senior Front-end Developer | Happy Inc',
+      title: 'Senior Frontend Developer | Happy Inc',
       gap: 'June 2022 - Present',
       mainDuty: 'Designed innovative reports for applications on the online survey platform.',
       otherDuties: [
@@ -184,7 +184,7 @@ export const resume = {
       ],
     },
     {
-      title: 'Front-end Developer | Autodrive Agency',
+      title: 'Frontend Developer | Autodrive Agency',
       gap: 'March 2021 - June 2022',
       mainDuty: 'Developed and enhanced e-commerce apps for car dealers and diverse clients.',
       otherDuties: [
@@ -284,7 +284,7 @@ export const techs = [
 
 export const aboutMe = {
   textBlocks: [
-    'Front-end developer with 5+ years of experience in creating interactive web applications and enhancing user interfaces.',
+    'Frontend developer with 5+ years of experience in creating interactive web applications and enhancing user interfaces.',
     'Committed to using the latest technologies to drive company growth, improve user satisfaction, and increase product efficiency. Proficient in HTML, CSS, JavaScript, TypeScript, and modern frameworks like React and Vue.',
     'Dedicated to delivering results, whether it\'s optimizing performance or building applications from scratch.'
   ],
