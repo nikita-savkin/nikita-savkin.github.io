@@ -21,7 +21,7 @@ const InfoMenu = ({ contentRef, title, showedInfoMenu, toggleInfoMenu, children 
         {showedInfoMenu === '03' && (
           <a
             download
-            href='./resume/nikita_savkin_cv_frontend.pdf'
+            href='./resume/nikita_savkin_frontend_cv.pdf'
             className='download-btn'
             rel='noreferrer'
             target='_blank'
