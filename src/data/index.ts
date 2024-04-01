@@ -92,15 +92,15 @@ export const ProjectExampleInfo: ProjectExample[] = [
     mainUrl: 'https://luidor-expert.ru/',
     type: 'e-commerce',
   },
-  {
-    title: 'Garden for everyone',
-    imageUrl: './img/portfolio/plants.webp',
-    description:
-      'The e-commerce online shop that specializes in selling plants, offering a diverse selection and convenient shopping and shipping options, as well as helpful plant care advice.',
-    techs: ['Vue', 'JavaScript', 'TailwindCSS'],
-    mainUrl: 'https://vsem-sad.ru/',
-    type: 'e-commerce',
-  }
+  // {
+  //   title: 'Garden for everyone',
+  //   imageUrl: './img/portfolio/plants.webp',
+  //   description:
+  //     'The e-commerce online shop that specializes in selling plants, offering a diverse selection and convenient shopping and shipping options, as well as helpful plant care advice.',
+  //   techs: ['Vue', 'JavaScript', 'TailwindCSS'],
+  //   mainUrl: 'https://vsem-sad.ru/',
+  //   type: 'e-commerce',
+  // }
 ]
 
 export const resume = {
