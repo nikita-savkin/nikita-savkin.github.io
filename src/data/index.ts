@@ -255,7 +255,7 @@ export const techs = [
 export const aboutMe = {
   textBlocks: [
     'Frontend developer with 5+ years of experience in creating interactive web applications and enhancing user interfaces.',
-    'Committed to using the latest technologies to drive company growth, improve user satisfaction, and increase product efficiency. Proficient in HTML, CSS, JavaScript, TypeScript, and modern frameworks like React and Vue.',
+    'Committed to using the latest technologies to drive company growth, improve user satisfaction, and increase product efficiency. Proficient in HTML, CSS, JavaScript, TypeScript, and modern frameworks such as React and Vue.',
     'Dedicated to delivering results, whether it\'s optimizing performance or building applications from scratch.'
   ],
   techsTitle: "Here are a few technologies I've been working with:",
