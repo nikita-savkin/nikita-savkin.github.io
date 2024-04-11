@@ -107,25 +107,20 @@ export const resume = {
   hardSkills: [
     {
       title: 'Languages',
-      info: 'JavaScript, TypeScript, HTML, CSS',
+      info: 'JavaScript, TypeScript, Python, HTML, CSS',
     },
     {
       title: 'Technologies',
-      info: 'HTML, CSS, JavaScript (ES6+), TypeScript, React, Next.js, Redux, React Router, Vue, Vuex, Webpack, Vite, Node.js, Chart.js, D3.js, Sass, Tailwind CSS, Bootstrap, Jest, Version Control/Git, Docker, AWS, npm, i18n, SSR',
+      info: 'React, Vue, Next.js, Node.js, Redux, Vuex, Pinia, Chart.js, Sass, Tailwind CSS, Bootstrap, Webpack, Vite, Git, Docker, Jest, AWS, ESLint, Prettier, VS Code, WebStorm, npm',
     },
     {
       title: 'Other',
-      info: 'Cross-browser compatibility, responsive design, mobile design, web performance optimization, search engine optimization (SEO), testing/debugging, browser developer tools, RESTful APIs, web accessibility, CI/CD, Agile',
+      info: 'Object-Oriented Programming (OOP), Data Structures, Algorithms, Design Patterns, Software Architecture, Performance Optimization, Search Engine Optimization (SEO), Testing/Debugging, RESTful APIs, CI/CD, SSR, Cross-browser compatibility, Web accessibility, Responsive design',
     },
   ],
   education: [
     {
-      title: 'React - The Complete Guide Course',
-      source: 'Maximilian Schwarzmüller',
-      year: '2019',
-    },
-    {
-      title: 'Algorithms and Data Structures Masterclass',
+      title: 'Data Structures and Algorithms Course',
       source: 'Colt Steele',
       year: '2019',
     },
@@ -145,33 +140,33 @@ export const resume = {
     {
       title: 'Senior Frontend Engineer | Happy Inc',
       gap: 'June 2022 - Present',
-      mainDuty: 'Crafted dynamic and visually engaging reports for web applications on the online survey platforms.',
+      mainDuty: 'Engineered web application reports for online survey platforms.',
       otherDuties: [
-        'Developed 3 dynamic reports for the \'Happy Job\' app, using React, Vue, TypeScript, and data visualization libraries, resulting in a 14% increase in company income;',
-        'Architected 4 reports for \'FeedbackX\', employing Vue and Chart.js, enhancing the convenience of survey data analysis for clients by 20%;',
-        'Advanced platform components, reducing user complaints by 12% through UX/UI improvements using Tailwind CSS;',
-        'Engineered advanced data visualization tools with Chart.js, contributing to a 17% boost in data interpretation efficiency.'
+        'Developed 3 interactive dashboards for the ’Happy Job’ app using React, Vue, and TypeScript, providing real-time insights that contributed to a 14% increase in company income',
+        'Architected 4 reports for ’FeedbackX’ app, employing Vue and Pinia, enhancing the convenience of survey data analysis for clients by 20%',
+        'Advanced platform components, reducing user complaints by 12% with UX/UI improvements using Tailwind CSS',
+        'Engineered data visualization tools using Chart.js, resulting in a 17% increase in data interpretation efficiency'
       ],
     },
     {
       title: 'Frontend Developer | Autodrive Agency',
       gap: 'March 2021 - June 2022',
-      mainDuty: 'Created and optimized e-commerce apps for diverse clients, improving performance and scalability.',
+      mainDuty: 'Created and optimized e-commerce apps, focusing on improving performance and scalability.',
       otherDuties: [
-        'Built 3 comprehensive online stores with both mobile and desktop versions, alongside admin panels;',
-        'Implemented SEO strategies, achieving a performance boost of 10-23% for web applications by using Next.js;',
-        'Refactored codebases with ESLint/Prettier, resulting in a reduction of project build size by 7-15%;',
-        'Enhanced project productivity by 10-15% through the utilization of Google Lighthouse and customized Webpack configuration.'
+        'Developed 3 responsive e-commerce shops from scratch using Vue and TypeScript, complete with admin panels, which drove an 18% increase in company revenue',
+        'Implemented SEO strategies, achieving a performance boost of 10-23% for web applications by using Next.js',
+        'Refactored codebases with ESLint/Prettier, resulting in a reduction of project build size by 7-15%',
+        'Improved project productivity by 10-15% by using Google Lighthouse and customizing the Webpack configuration'
       ],
     },
     {
       title: 'Freelance Web Developer',
       gap: 'September 2019 - March 2021',
-      mainDuty: 'Developed and maintained websites, prioritizing efficiency and compatibility.',
+      mainDuty: 'Developed and maintained websites, prioritizing efficiency and compatibility',
       otherDuties: [
-        'Employed a \'mobile-first\' approach for new projects, accelerating development speed by 18%;',
-        'Implemented modern coding standards and utilized JavaScript ES6 syntax to ensure robust and efficient codebases;',
-        'Ensured cross-browser compatibility and responsiveness through detailed testing and debugging procedures.'
+        'Employed a ’mobile-first’ approach for new projects, accelerating development speed by 18%',
+        'Implemented modern coding standards and utilized JavaScript ES6 syntax to ensure robust and efficient codebases',
+        'Ensured cross-browser compatibility and responsiveness through detailed testing and debugging procedures'
       ],
     },
   ],
@@ -254,9 +249,9 @@ export const techs = [
 
 export const aboutMe = {
   textBlocks: [
-    'Frontend developer with 5+ years of experience in creating interactive web applications and enhancing user interfaces.',
-    'Committed to using the latest technologies to drive company growth, improve user satisfaction, and increase product efficiency. Proficient in HTML, CSS, JavaScript, TypeScript, and modern frameworks such as React and Vue.',
-    'Dedicated to delivering results, whether it\'s optimizing performance or building applications from scratch.'
+    'Frontend developer with over 5 years of experience in creating unique, complex, and compute-intensive web applications.',
+    'Expert in enhancing user interfaces and optimizing performance for scalability and efficient data processing. Proficient in HTML, CSS, JavaScript, TypeScript, and modern frameworks such as React and Vue.',
+    'Passionate about building innovative solutions that drive measurable results.'
   ],
   techsTitle: "Here are a few technologies I've been working with:",
 }
